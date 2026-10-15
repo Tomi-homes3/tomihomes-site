@@ -1,0 +1,4 @@
+# Netlify runs the blog builder on every deploy.
+[build]
+  publish = "."
+  command = "node build-blog.js"
