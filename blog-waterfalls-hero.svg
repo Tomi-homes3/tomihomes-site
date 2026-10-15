@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="Arizona waterfalls at a glance: Havasu Falls needs a Havasupai permit and runs year-round; Fossil Creek needs a permit April to September and runs year-round; Water Wheel Falls near Payson needs a day-use pass and runs spring and monsoon; Grand Falls is closed to non-tribal visitors.">
+  <defs>
+    <style>
+      .ff { font-family: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .fb { font-family: Georgia, "Times New Roman", serif; }
+    </style>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#024757"/><stop offset="60%" stop-color="#046074"/><stop offset="100%" stop-color="#035463"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#sky)"/>
+
+  <!-- canyon silhouette -->
+  <path d="M0 700 L0 470 L120 400 L210 445 L330 330 L430 400 L520 355 L640 455 L760 395 L860 470 L980 385 L1090 450 L1200 360 L1320 440 L1430 390 L1540 460 L1600 420 L1600 700 Z" fill="#012e39" opacity="0.55"/>
+  <path d="M0 700 L0 560 L150 520 L300 575 L470 505 L640 570 L820 515 L1000 578 L1180 520 L1360 575 L1520 530 L1600 560 L1600 700 Z" fill="#012129" opacity="0.7"/>
+
+  <!-- water ribbon -->
+  <path d="M770 300 C 790 400, 745 470, 775 610 C 790 660, 810 675, 830 700 L 720 700 C 735 660, 745 620, 738 560 C 728 470, 760 400, 740 300 Z" fill="#6db8b7" opacity="0.32"/>
+
+  <rect x="0" y="0" width="1600" height="7" fill="#b8935a"/>
+
+  <text class="ff" x="80" y="92" font-size="20" letter-spacing="4" fill="#d9bd8c">LIVING IN THE SUN &#183; AZ HOT SPOTS</text>
+  <text class="fb" x="80" y="160" font-size="52" font-style="italic" fill="#ffffff">Arizona Waterfalls at a Glance</text>
+  <text class="fb" x="80" y="200" font-size="21" fill="rgba(255,255,255,0.62)">Season, permit and access &#8212; before you drive four hours for a dry rock face</text>
+
+  <!-- rows -->
+  <g>
+    <rect x="80" y="248" width="1440" height="1" fill="rgba(255,255,255,0.16)"/>
+    <text class="ff" x="100" y="300" font-size="26" fill="#ffffff">HAVASU FALLS</text>
+    <text class="fb" x="100" y="330" font-size="18" fill="rgba(255,255,255,0.55)">Havasupai Reservation, Grand Canyon</text>
+    <text class="fb" x="900" y="300" font-size="20" fill="#6db8b7">Spring-fed &#183; runs year-round</text>
+    <rect x="1230" y="278" width="290" height="32" fill="#df6033"/>
+    <text class="ff" x="1248" y="301" font-size="15" letter-spacing="1.8" fill="#ffffff">TRIBAL PERMIT REQUIRED</text>
+
+    <rect x="80" y="358" width="1440" height="1" fill="rgba(255,255,255,0.16)"/>
+    <text class="ff" x="100" y="410" font-size="26" fill="#ffffff">FOSSIL CREEK</text>
+    <text class="fb" x="100" y="440" font-size="18" fill="rgba(255,255,255,0.55)">Bob Bear Trailhead, near Strawberry</text>
+    <text class="fb" x="900" y="410" font-size="20" fill="#6db8b7">Spring-fed &#183; runs year-round</text>
+    <rect x="1230" y="388" width="290" height="32" fill="#b8935a"/>
+    <text class="ff" x="1248" y="411" font-size="15" letter-spacing="1.8" fill="#ffffff">PERMIT APR&#8211;SEPT</text>
+
+    <rect x="80" y="468" width="1440" height="1" fill="rgba(255,255,255,0.16)"/>
+    <text class="ff" x="100" y="520" font-size="26" fill="#ffffff">WATER WHEEL FALLS</text>
+    <text class="fb" x="100" y="550" font-size="18" fill="rgba(255,255,255,0.55)">Ellison Creek, Payson &#183; ~90 min from the Valley</text>
+    <text class="fb" x="900" y="520" font-size="20" fill="#fecc57">Spring melt &amp; monsoon</text>
+    <rect x="1230" y="498" width="290" height="32" fill="#6db8b7"/>
+    <text class="ff" x="1248" y="521" font-size="15" letter-spacing="1.8" fill="#02343f">DAY-USE PASS</text>
+
+    <rect x="80" y="578" width="1440" height="1" fill="rgba(255,255,255,0.16)"/>
+    <text class="ff" x="100" y="630" font-size="26" fill="rgba(255,255,255,0.55)">GRAND FALLS</text>
+    <text class="fb" x="100" y="660" font-size="18" fill="rgba(255,255,255,0.4)">Little Colorado River, Navajo Nation</text>
+    <text class="fb" x="900" y="630" font-size="20" fill="rgba(255,255,255,0.4)">Snowmelt, late winter&#8211;spring</text>
+    <rect x="1230" y="608" width="290" height="32" fill="#f56e6e"/>
+    <text class="ff" x="1248" y="631" font-size="15" letter-spacing="1.8" fill="#ffffff">CLOSED TO VISITORS</text>
+  </g>
+</svg>

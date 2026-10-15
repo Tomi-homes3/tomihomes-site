@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="Greater Phoenix months of supply rose from 3.77 in July 2026 to 4.28 in August 2026, crossing the four-month balanced market line.">
+  <defs>
+    <style>
+      .ff { font-family: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .fb { font-family: Georgia, "Times New Roman", serif; }
+    </style>
+    <linearGradient id="barA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6db8b7"/><stop offset="100%" stop-color="#4e9a99"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#df6033"/><stop offset="100%" stop-color="#c4552c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="660" fill="#FDF9F7"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#b8935a"/>
+
+  <text class="ff" x="70" y="78" font-size="19" letter-spacing="3.5" fill="#b8935a">GREATER PHOENIX &#183; ARMLS</text>
+  <text class="fb" x="70" y="132" font-size="40" font-style="italic" fill="#024757">The month leverage changed hands</text>
+  <text class="fb" x="70" y="168" font-size="20" fill="#6b7a7e">Months of supply &#8212; how long it would take to sell every listed home</text>
+
+  <!-- axis -->
+  <line x1="70" y1="560" x2="1130" y2="560" stroke="#024757" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- balanced line at 4.0 -->
+  <line x1="70" y1="330" x2="1130" y2="330" stroke="#024757" stroke-width="2" stroke-dasharray="9 7" stroke-opacity="0.55"/>
+  <rect x="820" y="306" width="310" height="30" fill="#024757"/>
+  <text class="ff" x="836" y="327" font-size="15" letter-spacing="2" fill="#fecc57">4.0 = BALANCED MARKET</text>
+
+  <!-- bar: July -->
+  <rect x="210" y="343" width="220" height="217" fill="url(#barA)"/>
+  <text class="ff" x="320" y="318" font-size="58" fill="#024757" text-anchor="middle">3.77</text>
+  <text class="ff" x="320" y="600" font-size="20" letter-spacing="3" fill="#024757" text-anchor="middle">JULY 2026</text>
+  <text class="fb" x="320" y="628" font-size="18" fill="#6b7a7e" text-anchor="middle">Seller-leaning</text>
+
+  <!-- bar: August -->
+  <rect x="700" y="270" width="220" height="290" fill="url(#barB)"/>
+  <text class="ff" x="810" y="245" font-size="58" fill="#df6033" text-anchor="middle">4.28</text>
+  <text class="ff" x="810" y="600" font-size="20" letter-spacing="3" fill="#024757" text-anchor="middle">AUGUST 2026</text>
+  <text class="fb" x="810" y="628" font-size="18" fill="#6b7a7e" text-anchor="middle">Balanced &#8212; buyers can negotiate</text>
+
+  <!-- arrow -->
+  <path d="M 455 300 L 665 258" stroke="#b8935a" stroke-width="3" fill="none"/>
+  <path d="M 665 258 l -22 -1 l 14 13 z" fill="#b8935a"/>
+  <text class="fb" x="560" y="255" font-size="19" font-style="italic" fill="#b8935a" text-anchor="middle">+0.51 in one month</text>
+
+  <text class="fb" x="70" y="650" font-size="15" fill="#9aa7aa">Source: ARMLS, August 2026 &#183; tomihomes.com</text>
+</svg>

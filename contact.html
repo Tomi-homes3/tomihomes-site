@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Tomi Homes — Arizona's women-led real estate team. Call, email, or send a message. We'd love to hear from you.">
+<title>Contact Us · Tomi Homes · Sun Sanctuaries</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;900&family=Livvic:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
+:root{--blush:#ecc3b9;--teal:#6db8b7;--orange:#df6033;--deep:#024757;--sage:#acc66d;--yellow:#fecc57;--white:#FFFFFF;--off-white:#FDF9F7;--font-display:'Big Shoulders Display','Arial Black',sans-serif;--font-body:'Livvic','Georgia',serif;--gold:#b8935a;--gold-light:#d9bd8c;--font-serif:'Playfair Display','Georgia',serif;}
+body{font-family:var(--font-body);background:var(--white);color:#111;overflow-x:hidden;font-size:16px;line-height:1.6}
+h1,h2,h3,h4,h5{font-family:var(--font-display);letter-spacing:.01em}
+
+/* NAV */
+.nav{background:var(--white);height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(2,71,87,.08);box-shadow:0 2px 12px rgba(2,71,87,.05)}
+.nav-brand{font-family:var(--font-display);font-size:18px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.nav-brand span{font-size:7.5px;display:block;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);font-family:var(--font-body);font-weight:600}
+.nav-links{display:flex;gap:1.8rem;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#555}
+@media(min-width:961px) and (max-width:1340px){.nav-links{gap:.82rem}.nav{padding-left:1.2rem;padding-right:1.2rem}}
+.nav-links a:hover{color:var(--teal)}
+.nav-cta{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:9px 18px}
+
+/* HERO CONTACT SECTION */
+.contact-hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden}
+.contact-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center}
+.contact-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(223,96,51,.88) 0%,rgba(223,96,51,.75) 40%,rgba(223,96,51,.2) 70%,transparent 100%)}
+.contact-inner{position:relative;z-index:2;width:100%;max-width:1200px;margin:0 auto;padding:4rem 3rem;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+
+/* LEFT */
+.contact-left{}
+.contact-tag{font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold-light);margin-bottom:1rem}
+.contact-h{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(42px,6.4vw,84px);text-transform:none;color:var(--white);line-height:1.05;margin-bottom:.5rem}
+.contact-line{width:60px;height:1px;background:var(--gold);margin:1.2rem 0 1.5rem}
+.contact-subh{font-family:var(--font-display);font-size:clamp(15px,1.8vw,20px);font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-light);line-height:1.3;margin-bottom:2rem}
+.contact-info-items{display:flex;flex-direction:column;gap:.8rem}
+.ci-item{display:flex;align-items:center;gap:.8rem;color:rgba(255,255,255,.85);font-size:14px;font-weight:400}
+.ci-item svg{flex-shrink:0;color:var(--white)}
+.ci-item a{color:rgba(255,255,255,.85)}
+.ci-item a:hover{color:var(--white)}
+.socials{display:flex;gap:.6rem;margin-top:1.5rem}
+.soc-btn{width:38px;height:38px;border:1.5px solid rgba(255,255,255,.4);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.7);font-size:10px;font-weight:700;transition:all .2s}
+.soc-btn:hover{background:rgba(255,255,255,.15);border-color:var(--white);color:var(--white)}
+
+/* RIGHT — form */
+.contact-form-wrap{background:rgba(255,255,255,.97);padding:2.5rem}
+.form-h{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:26px;text-transform:none;color:var(--deep);margin-bottom:.3rem}
+.form-sub{font-size:12px;color:#888;margin-bottom:1.8rem}
+.field{display:flex;flex-direction:column;gap:4px;margin-bottom:1rem}
+.field label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(2,71,87,.45)}
+.field input,.field select,.field textarea{background:var(--off-white);border:1px solid rgba(2,71,87,.12);padding:11px 13px;font-family:var(--font-body);font-size:14px;color:var(--deep);outline:none;transition:border-color .2s;width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--orange)}
+.field textarea{resize:vertical;min-height:80px}
+.field select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23024757' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;cursor:pointer}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.submit-btn{background:var(--deep);color:var(--white);font-family:var(--font-display);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:14px;width:100%;border:none;cursor:pointer;transition:background .2s;margin-top:.5rem}
+.submit-btn:hover{background:var(--orange)}
+.form-note{font-size:10px;color:#aaa;text-align:center;margin-top:.6rem}
+
+/* CONTACT STRIP */
+.contact-strip{background:var(--deep);padding:2rem 3rem;display:flex;align-items:center;justify-content:space-around;flex-wrap:wrap;gap:1.5rem}
+.cs-item{display:flex;align-items:center;gap:.8rem}
+.cs-icon{width:40px;height:40px;background:rgba(109,184,183,.15);border:1px solid rgba(109,184,183,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.cs-icon svg{color:var(--teal)}
+.cs-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:2px}
+.cs-val{font-size:14px;font-weight:500;color:var(--white)}
+.cs-val a{color:var(--white)}
+.cs-val a:hover{color:var(--teal)}
+
+/* MAP */
+.map-wrap{height:380px;overflow:hidden}
+.map-wrap iframe{width:100%;height:100%;border:none;display:block}
+
+/* FOOTER */
+.footer{background:#021e27;padding:2.5rem 3rem}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.footer-brand{font-family:var(--font-display);font-size:20px;font-weight:900;color:var(--yellow);letter-spacing:.08em}
+.footer-sub{font-size:7.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-top:2px}
+.footer-links{display:flex;gap:1.5rem;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.35)}
+.footer-links a:hover{color:var(--teal)}
+.footer-copy{font-size:9px;color:rgba(255,255,255,.2);margin-top:1.5rem;text-align:center}
+
+/* FLOAT */
+.float-cta{position:fixed;bottom:1.5rem;right:1.5rem;z-index:999}
+.float-cta a{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:12px 20px;display:flex;align-items:center;gap:8px;box-shadow:0 4px 20px rgba(223,96,51,.4)}
+.float-pulse{width:8px;height:8px;border-radius:50%;background:var(--white);animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+@media(max-width:900px){
+  .contact-inner{grid-template-columns:1fr;gap:2rem;padding:3rem 1.5rem}
+  .contact-overlay{background:linear-gradient(180deg,rgba(223,96,51,.9) 0%,rgba(223,96,51,.85) 50%,rgba(223,96,51,.7) 100%)}
+  .field-row{grid-template-columns:1fr}
+  .nav-links{display:none}
+  .contact-strip{flex-direction:column;align-items:flex-start;gap:1rem;padding:2rem 1.5rem}
+}
+
+.dd-wide{min-width:280px}
+.dd-wide a{text-transform:none;letter-spacing:.01em;font-size:12.5px;font-weight:500;line-height:1.4;padding:12px 18px}
+
+.has-dd{display:flex;align-items:center;gap:3px;position:relative;cursor:pointer}
+.dd{position:absolute;top:100%;padding-top:18px;margin-top:-1px;left:0;background:#fff;border:1px solid rgba(2,71,87,.1);min-width:180px;display:none;flex-direction:column;box-shadow:0 8px 28px rgba(2,71,87,.12);z-index:200}
+.has-dd:hover .dd{display:flex}
+.dd a{padding:11px 18px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#555;border-bottom:1px solid rgba(2,71,87,.07);display:block}
+.dd a:last-child{border:none}
+.dd a:hover{color:#df6033;background:#FDF9F7;padding-left:22px}
+
+/* ===== LET'S TALK (shared) ===== */
+.lets-talk{position:relative;overflow:hidden;background:var(--charcoal);padding:5.5rem 3rem;min-height:560px;display:flex;align-items:center}
+.lets-talk{padding:4rem 1.5rem}
+.lt-photo{position:absolute;top:0;right:0;bottom:0;width:58%;background-size:cover;background-position:center}
+.lt-photo::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--charcoal) 0%,rgba(27,31,34,0) 40%)}
+.lt-photo{width:100%;opacity:1}
+.lt-photo::before{background:linear-gradient(0deg,rgba(27,31,34,0.8) 0%,rgba(27,31,34,0.4) 40%,rgba(27,31,34,0.05) 100%)}
+.lt-inner{position:relative;z-index:2;max-width:560px;margin-right:auto;margin-left:0}
+.lt-title{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(38px,4.8vw,60px);color:#fff;text-transform:none;line-height:1.05;margin-bottom:18px}
+.lt-rule{width:130px;height:3px;background:#fff;margin-bottom:22px}
+.lt-sub{font-family:var(--font-display);font-weight:600;font-size:clamp(15px,1.6vw,19px);letter-spacing:.1em;color:var(--gold-light);text-transform:uppercase;line-height:1.3;margin-bottom:30px;max-width:340px}
+.lt-form label{display:block;color:#fff;font-size:14px;margin-bottom:6px}
+.lt-form input{width:100%;padding:13px 14px;border:none;border-radius:4px;font-family:inherit;font-size:15px;background:#fff}
+.lt-form .lt-field{margin-bottom:16px}
+.lt-form button{margin-top:10px;background:var(--gold);color:#fff;font-family:var(--font-display);font-weight:600;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;padding:16px 32px;border:none;cursor:pointer}
+.lt-form button:hover{background:var(--gold-light)}
+.lt-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.lt-row{grid-template-columns:1fr}
+.lt-field{margin-bottom:16px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 3rem}
+.wrap{padding:0 1.25rem}
+
+/* ===== BANNER HEADER ===== */
+.sitehead{position:relative;overflow:hidden;background:#024757;border-bottom:5px solid var(--yellow)}
+.sh-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.sh-wash{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,71,87,.30) 45%,rgba(2,30,39,.72))}
+.sh-top,.sh-nav{position:relative;z-index:2}
+@media(prefers-reduced-motion:reduce){.sh-vid{display:none}.sitehead{background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,30,39,.72)),url('nav-banner.jpg') center 45%/cover}}
+.sh-top{max-width:1320px;margin:0 auto;padding:1.5rem 2.5rem .2rem;display:flex;align-items:flex-start;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.sh-mark{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.sh-logo{font-family:var(--font-serif);font-weight:500;font-size:clamp(30px,4.2vw,54px);color:#fff;letter-spacing:.06em;line-height:1;text-shadow:0 2px 18px rgba(2,30,39,.5)}
+.sh-tag{font-family:var(--font-body);font-size:13px;line-height:1.35;color:rgba(255,255,255,.95);max-width:210px;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone{display:block;font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:#fff;margin-top:.5rem;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone:hover{color:var(--yellow)}
+.sh-right{display:flex;align-items:center;gap:14px}
+.sh-soc{display:flex;gap:9px;align-items:center}
+.sh-soc a{width:28px;height:28px;border:1px solid rgba(255,255,255,.45);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:10px;font-weight:700;color:#fff}
+.sh-soc a:hover{background:var(--yellow);border-color:var(--yellow);color:var(--deep)}
+.sh-nav{max-width:1320px;margin:0 auto;padding:.9rem 2.5rem 1.1rem;display:flex;justify-content:center;flex-wrap:wrap}
+.sh-nav .nav-links{display:flex;gap:1.5rem;align-items:center}
+.sh-nav .nav-link{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.92);text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sh-nav .nav-link:hover,.sh-nav .nav-link.active{color:var(--yellow)}
+.sh-nav .dd{background:rgba(2,30,39,.97);border-color:rgba(255,255,255,.12)}
+.sh-nav .dd a{color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.08)}
+.sh-nav .dd a:hover{color:var(--yellow);background:rgba(255,255,255,.05)}
+@media(min-width:961px) and (max-width:1320px){.sh-nav .nav-links{gap:.8rem}.sh-top,.sh-nav{padding-left:1.4rem;padding-right:1.4rem}}
+/* sticky slim bar */
+.stickybar{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.97);border-bottom:1px solid rgba(2,71,87,.12);box-shadow:0 2px 14px rgba(2,71,87,.08);transform:translateY(-100%);transition:transform .25s ease;height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem}
+.stickybar.show{transform:translateY(0)}
+.sb-logo{font-family:var(--font-display);font-size:16px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.stickybar .nav-links{display:flex;gap:1.2rem;align-items:center}
+@media(min-width:961px) and (max-width:1320px){.stickybar .nav-links{gap:.75rem}.stickybar{padding:0 1.4rem}}
+/* hamburger + drawer */
+.sh-burger{display:none;width:44px;height:38px;border:1px solid rgba(255,255,255,.5);background:rgba(2,30,39,.25);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}
+.sh-burger span{display:block;width:20px;height:2px;background:#fff;transition:transform .25s ease,opacity .2s ease}
+.drawer{position:fixed;inset:0;z-index:1200;background:var(--deep);display:flex;flex-direction:column;padding:1.4rem 1.5rem 2rem;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}
+.drawer.open{transform:translateX(0)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.6rem}
+.drawer-logo{font-family:var(--font-display);font-size:19px;font-weight:900;color:#fff;letter-spacing:.08em}
+.drawer-close{background:none;border:1px solid rgba(255,255,255,.4);color:#fff;width:40px;height:40px;font-size:22px;line-height:1;cursor:pointer}
+.drawer a.d-link{display:block;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer a.d-link:hover{color:var(--yellow)}
+.drawer a.d-sub{font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.66);padding:.6rem 0 .6rem 1rem;border-bottom:1px solid rgba(255,255,255,.07)}
+.drawer-foot{margin-top:1.8rem;display:flex;flex-direction:column;gap:.8rem}
+.drawer-foot a{font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:var(--yellow)}
+@media(max-width:960px){
+  .sh-nav{display:none}
+  .sh-burger{display:flex}
+  .sh-top{padding:1.1rem 1.25rem 1.3rem;align-items:center}
+  .sh-tag{display:none}
+  .stickybar .nav-links{display:none}
+  .stickybar{padding:0 1.25rem}
+}
+@media(min-width:961px){.drawer{display:none}}
+
+/* ===== BRAND LOCKUP ===== */
+.sh-logo{font-size:clamp(26px,3.4vw,44px) !important;line-height:1;display:block}
+.sh-logo .sh-sub{display:block;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:.45rem;text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sb-logo{display:flex;flex-direction:column;line-height:1.05}
+.sb-logo .sb-sub{font-size:8px;font-weight:700;letter-spacing:.2em;color:var(--teal);margin-top:2px}
+.drawer-logo{display:flex;flex-direction:column;line-height:1.05}
+.drawer-logo .d-sub2{font-size:8.5px;font-weight:700;letter-spacing:.2em;color:rgba(255,255,255,.55);margin-top:3px}
+.f-logo .f-sub{display:block;font-family:var(--font-display);font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:4px}
+
+.nav-right{display:flex;align-items:center;gap:14px}
+.nav-burger{display:none;border:1px solid rgba(2,71,87,.3);background:transparent}
+.nav-burger span{background:var(--deep)}
+@media(max-width:960px){.nav-burger{display:flex}}
+.lets-talk .wrap{padding-left:0}
+@media(min-width:901px){.lets-talk{padding-left:5rem}}
+
+/* ===== NAV BRAND + BROKERAGE ===== */
+.nav-logo{font-size:23px !important;letter-spacing:.07em !important;line-height:1}
+.nav-ss{font-size:8.5px !important;letter-spacing:.22em !important;margin-top:3px}
+.nav-contact{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+.nav-brokered{font-family:var(--font-body,Georgia,serif);font-size:8.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#7b8a8e;margin-top:4px;white-space:nowrap}
+@media(max-width:600px){.nav-logo{font-size:19px !important}.nav-brokered{font-size:7.5px;letter-spacing:.12em}}
+
+/* contact hero refresh */
+.contact-h{font-size:clamp(44px,5.2vw,68px)!important;line-height:1.02!important;letter-spacing:-.005em;text-transform:none!important;margin-bottom:.25rem!important}
+@media(min-width:901px){
+ .contact-hero{min-height:max(100vh,820px)}
+ .contact-bg{object-position:62% 12%!important}
+ .contact-overlay{background:linear-gradient(90deg,rgba(223,96,51,.92) 0%,rgba(223,96,51,.82) 32%,rgba(223,96,51,.28) 58%,rgba(223,96,51,.08) 100%)!important}
+ .contact-inner{align-items:end!important;padding-top:clamp(14rem,34vh,22rem)!important;padding-bottom:3rem!important}
+ .contact-left{align-self:center}
+}
+</style>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sun Sanctuaries by Tomi Homes">
+<meta property="og:title" content="Contact Us · Tomi Homes · Sun Sanctuaries">
+<meta property="og:description" content="Contact Tomi Homes — Arizona's women-led real estate team. Call, email, or send a message. We'd love to hear from you.">
+<meta property="og:url" content="https://imaginative-kangaroo-c59e1b.netlify.app/contact.html">
+<meta property="og:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<style id="mobile-fixes">
+.drawer .d-link,.drawer summary.d-link{display:flex;justify-content:space-between;align-items:center;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12);text-decoration:none;background:none;line-height:1.2}
+.drawer details.d-group{border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer details.d-group>summary.d-link{border-bottom:none;cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.drawer details.d-group>summary::-webkit-details-marker{display:none}
+.drawer .d-caret{width:9px;height:9px;border-right:2px solid var(--yellow,#fecc57);border-bottom:2px solid var(--yellow,#fecc57);transform:rotate(45deg);margin:0 6px 4px 0;transition:transform .2s ease;flex:0 0 auto}
+.drawer details[open] .d-caret{transform:rotate(-135deg);margin-bottom:-4px}
+.drawer .d-group a.d-sub{display:block;font-family:var(--font-display);font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.78);padding:.7rem 0 .7rem 1rem;border-top:1px solid rgba(255,255,255,.07);text-decoration:none}
+.drawer .d-group a.d-sub:last-child{margin-bottom:.4rem}
+.drawer .d-link:hover,.drawer .d-group a.d-sub:hover{color:var(--yellow,#fecc57)}
+.drawer .d-link:focus-visible,.drawer .d-sub:focus-visible{outline:2px solid var(--yellow,#fecc57);outline-offset:2px}
+@media(max-width:600px){.float-cta{right:auto;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px))}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+ <div class="nav-brand">
+  <div class="nav-logo">SUN SANCTUARIES</div>
+  <div class="nav-ss">by Tomi Homes</div>
+ </div>
+ <div class="nav-links">
+
+ <a href="index.html" class="nav-link">Home</a>
+ <a href="tour-homes.html" class="nav-link">Tour Homes</a>
+ <div class="nav-link has-dd">Buy + Sell
+ <div class="dd">
+ <a href="buy.html">Buying a Home</a>
+ <a href="sell.html">Selling a Home</a>
+ </div>
+ </div>
+ <a href="probate.html" class="nav-link">Probate</a>
+ <a href="donate.html" class="nav-link">Donate</a>
+ <a href="team.html" class="nav-link">Our Team</a>
+ <a href="explore.html" class="nav-link">Explore AZ</a>
+ <div class="nav-link has-dd reloc-dd">Relocation
+ <div class="dd dd-wide">
+ <a href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+ <a href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+ </div>
+ </div>
+ <a href="blog.html" class="nav-link">Blog</a>
+ <a href="drop-us-a-like.html" class="nav-link">Drop Us a Like</a>
+ </div>
+ <div class="nav-right">
+  <div class="nav-contact"><a href="tel:6024057941" class="nav-phone">602.405.7941</a><span class="nav-brokered">Brokered by W &amp; Partners</span></div>
+  <button class="sh-burger nav-burger" aria-label="Open menu" aria-controls="drawer"><span></span><span></span><span></span></button>
+ </div>
+</nav>
+
+<nav class="drawer" id="drawer" aria-label="Mobile menu">
+  <div class="drawer-head">
+    <span class="drawer-logo">SUN SANCTUARIES<span class="d-sub2">by Tomi Homes</span></span>
+    <button class="drawer-close" aria-label="Close menu">&times;</button>
+  </div>
+    <a class="d-link" href="index.html">Home</a>
+    <a class="d-link" href="tour-homes.html">Tour Homes</a>
+    <details class="d-group">
+      <summary class="d-link">Buy + Sell<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="buy.html">Buying a Home</a>
+      <a class="d-sub" href="sell.html">Selling a Home</a>
+    </details>
+    <a class="d-link" href="probate.html">Probate</a>
+    <a class="d-link" href="donate.html">Donate</a>
+    <a class="d-link" href="team.html">Our Team</a>
+    <a class="d-link" href="explore.html">Explore AZ</a>
+    <details class="d-group">
+      <summary class="d-link">Relocation<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+      <a class="d-sub" href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+    </details>
+    <a class="d-link" href="blog.html">Blog</a>
+    <a class="d-link" href="drop-us-a-like.html">Drop Us a Like</a>
+  <div class="drawer-foot">
+    <a href="tel:6024057941">Call or Text 602.405.7941</a>
+    <a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a>
+  </div>
+</nav>
+
+
+<!-- HERO + FORM -->
+<section class="contact-hero">
+  <img class="contact-bg" src="team-trio-door.jpg" alt="Tomi, Megan and Alice of Sun Sanctuaries by Tomi Homes" loading="eager">
+  <div class="contact-overlay"></div>
+  <div class="contact-inner">
+
+    <!-- LEFT -->
+    <div class="contact-left">
+      <div class="contact-tag">Sun Sanctuaries &middot; by Tomi Homes</div>
+      <h1 class="contact-h">Let&rsquo;s Talk</h1>
+      <div class="contact-line"></div>
+      <div class="contact-subh">First Step to<br>Achieving Your Dream</div>
+      <div class="socials">
+        <a href="https://www.instagram.com/tomihomesaz/" target="_blank" class="soc-btn">IG</a>
+        <a href="https://www.facebook.com/TomiHomesAZ" target="_blank" class="soc-btn">FB</a>
+        <a href="https://www.youtube.com/@sunsanctuaries" target="_blank" class="soc-btn">YT</a>
+        <a href="https://share.google/0S2BMWJBeRl2VOv20" target="_blank" class="soc-btn">G</a>
+        <a href="https://www.yelp.com/biz/tomi-homes-phoenix" target="_blank" class="soc-btn">Y!</a>
+      </div>
+    </div>
+
+    <!-- RIGHT — form -->
+    <div class="contact-form-wrap">
+      <div class="form-h">Send Us a Message</div>
+      <div class="form-sub">We typically respond within a few hours.</div>
+      <form name="lets-talk" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you-contact.html" id="contactForm">
+        <input type="hidden" name="form-name" value="lets-talk">
+        <input type="hidden" name="page" value="contact">
+        <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="field-row">
+          <div class="field">
+            <label>First Name *</label>
+            <input type="text" name="first-name" placeholder="Jane" required autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input type="text" name="last-name" placeholder="Smith" autocomplete="family-name">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>Email *</label>
+            <input type="email" name="email" placeholder="jane@email.com" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label>Phone *</label>
+            <input type="tel" name="phone" placeholder="602.000.0000" required autocomplete="tel">
+          </div>
+        </div>
+        <div class="field">
+          <label>I am looking to...</label>
+          <select id="cf-looking">
+            <option value="" disabled selected>Select one</option>
+            <option>Buy a home</option>
+            <option>Sell a home</option>
+            <option>Buy and sell</option>
+            <option>Relocate to Arizona</option>
+            <option>Learn about the market</option>
+            <option>Just have a question</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>How Can Our Team Help?</label>
+          <textarea name="help" id="cf-help" placeholder="Tell us a little about what you're looking for..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Connect with Our Team →</button>
+        <p class="form-note">No spam, ever. We respect your privacy.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT STRIP -->
+<div class="contact-strip">
+  <div class="cs-item">
+    <div class="cs-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.4 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012.32 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.37a16 16 0 006 6l1.27-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+    <div><div class="cs-label">Call or Text</div><div class="cs-val"><a href="tel:6024057941">602.405.7941</a></div></div>
+  </div>
+  <div class="cs-item">
+    <div class="cs-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+    <div><div class="cs-label">Email</div><div class="cs-val"><a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a></div></div>
+  </div>
+  <div class="cs-item">
+    <div class="cs-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+    <div><div class="cs-label">Response Time</div><div class="cs-val">Same day · usually faster</div></div>
+  </div>
+  <div class="cs-item">
+    <div class="cs-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+    <div><div class="cs-label">Service Area</div><div class="cs-val">Phoenix · Scottsdale · Valley Wide · Flagstaff</div></div>
+  </div>
+</div>
+
+<!-- MAP -->
+<div class="map-wrap">
+  <iframe src="https://maps.google.com/maps?q=Phoenix%2C%20Arizona&z=9&output=embed" allowfullscreen loading="lazy" title="Tomi Homes Service Area"></iframe>
+</div>
+
+<!-- FOOTER -->
+
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">TOMI HOMES</div>
+      <div class="footer-sub">Sun Sanctuaries by Tomi Homes</div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="tour-homes.html">Search</a>
+      <a href="buy.html">Buy</a>
+      <a href="sell.html">Sell</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div style="font-size:11px;color:rgba(255,255,255,.35)">602.405.7941 · megan@tomihomes.com</div>
+  </div>
+  <div class="footer-copy">© 2026 Tomi Homes · Sun Sanctuaries · Brokered by W &amp; Partners · BR103191000 · All rights reserved</div>
+</footer>
+
+<!-- FLOAT CTA -->
+<div class="float-cta">
+  <a href="tel:6024057941">
+    <div class="float-pulse"></div>
+    Call or Text Tomi
+  </a>
+</div>
+
+<script>
+(function(){var f=document.getElementById('contactForm');if(!f)return;f.addEventListener('submit',function(){var sel=document.getElementById('cf-looking'),h=document.getElementById('cf-help');if(sel&&sel.value&&h){h.value='Looking to: '+sel.value+(h.value?' | '+h.value:'');}var b=f.querySelector('.submit-btn');if(b){b.textContent='Sending...';}});})();
+</script>
+<script>
+(function(){
+var b=document.getElementById('stickybar'),h=document.querySelector('.sitehead');
+if(b&&h){var u=function(){b.classList.toggle('show',window.scrollY>h.offsetHeight-20)};
+window.addEventListener('scroll',u,{passive:true});u();}
+var d=document.getElementById('drawer');
+function open_(){d.classList.add('open');document.body.style.overflow='hidden';}
+function close_(){d.classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('click',function(e){
+ if(e.target.closest&&e.target.closest('.sh-burger')){e.preventDefault();open_();}
+ if(e.target.closest&&e.target.closest('.drawer-close')){e.preventDefault();close_();}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d&&d.classList.contains('open'))close_();});
+})();
+</script>
+</body>
+</html>
