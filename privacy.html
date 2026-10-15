@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tomi Homes privacy policy: what information we collect and how we use it.">
+<title>Privacy Policy | Tomi Homes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;900&family=Livvic:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit;border:none;outline:none}
+img{display:block;max-width:100%}
+
+:root{
+ --blush:#ecc3b9;
+ --teal:#6db8b7;
+ --orange:#df6033;
+ --deep:#024757;
+ --sage:#acc66d;
+ --coral:#f56e6e;
+ --yellow:#fecc57;
+ --white:#FFFFFF;
+ --black:#111111;
+ --off-white:#FDF9F7;
+ --font-display:'Big Shoulders Display','Arial Black',sans-serif;
+ --font-body:'Livvic','Georgia',serif;--gold:#b8935a;--gold-light:#d9bd8c;--font-serif:'Playfair Display','Georgia',serif;}
+body{font-family:var(--font-body);background:var(--white);color:var(--black);overflow-x:hidden;font-size:16px;line-height:1.6}
+h1,h2,h3,h4,h5{font-family:var(--font-display);letter-spacing:0.01em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 3rem}
+@media(max-width:700px){.wrap{padding:0 1.25rem}}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:13px 28px;transition:all .2s;cursor:pointer;border:none;white-space:nowrap}
+.btn-orange{background:var(--orange);color:var(--white)}
+.btn-orange:hover{background:#c4552c}
+.btn-teal{background:var(--teal);color:var(--white)}
+.btn-deep{background:var(--deep);color:var(--white)}
+.btn-yellow{background:var(--yellow);color:var(--black)}
+.btn-outline-white{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.55)}
+.btn-outline-white:hover{border-color:var(--yellow);color:var(--yellow)}
+.btn-outline-dark{background:transparent;color:var(--deep);border:2px solid var(--deep)}
+.btn-outline-dark:hover{background:var(--deep);color:var(--white)}
+
+/* NAV */
+.nav{background:var(--white);height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;position:sticky;top:0;z-index:1000;border-bottom:1px solid rgba(2,71,87,.1);box-shadow:0 2px 12px rgba(2,71,87,.05)}
+.nav-brand{display:flex;flex-direction:column;line-height:1.1;gap:1px}
+.nav-logo{font-family:var(--font-display);font-size:18px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.nav-ss{font-size:7.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);font-weight:600}
+.nav-links{display:flex;gap:1.8rem;align-items:center}
+@media(min-width:961px) and (max-width:1340px){.nav-links{gap:.82rem}.nav{padding-left:1.2rem;padding-right:1.2rem}}
+.nav-link{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#555;transition:color .2s;position:relative;cursor:pointer}
+.nav-link:hover,.nav-link.active{color:var(--orange)}
+.has-dd{display:flex;align-items:center;gap:3px}
+.dd{position:absolute;top:100%;padding-top:18px;margin-top:-1px;left:0;background:var(--white);border:1px solid rgba(2,71,87,.1);min-width:180px;display:none;flex-direction:column;box-shadow:0 8px 28px rgba(2,71,87,.12);z-index:200}
+.has-dd:hover .dd{display:flex}
+.dd a{padding:11px 18px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#555;border-bottom:1px solid rgba(2,71,87,.07);transition:all .15s}
+.dd a:last-child{border:none}
+.dd a:hover{color:var(--orange);background:var(--off-white);padding-left:22px}
+.nav-phone{font-family:var(--font-display);font-size:13px;font-weight:900;color:var(--teal);letter-spacing:.05em}
+@media(max-width:960px){.nav-links{display:none}}
+
+/* SECTION HELPERS */
+.ey{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:10px;margin-bottom:.75rem}
+.ey-white{color:rgba(255,255,255,.75)}
+.ey-deep{color:var(--gold)}
+.ey::before,.ey::after{content:'';width:20px;height:1px;background:var(--gold)}
+.sec-h{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(26px,3.2vw,44px);text-transform:none;line-height:1.15;margin-bottom:.8rem}
+.sec-sub{font-size:15px;color:#555;max-width:560px;line-height:1.7}
+
+/* FOOTER */
+.footer{background:#021e27;padding:4rem 3rem 2rem}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem;max-width:1180px;margin-left:auto;margin-right:auto}
+.f-logo{font-family:var(--font-display);font-size:28px;font-weight:900;color:var(--yellow);letter-spacing:.08em}
+.f-ss{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-top:2px;margin-bottom:1rem;opacity:.8}
+.f-tag{font-size:12px;color:rgba(255,255,255,.35);line-height:1.7;margin-bottom:1.2rem}
+.f-contact a{display:block;color:rgba(255,255,255,.45);font-size:13px;margin-bottom:5px;transition:color .2s}
+.f-contact a:hover{color:var(--yellow)}
+.f-broker{font-size:10px;color:rgba(255,255,255,.18);margin-top:1rem;letter-spacing:.04em}
+.f-col h5{font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--yellow);margin-bottom:1rem;opacity:.75}
+.f-col a{display:block;color:rgba(255,255,255,.38);font-size:12px;margin-bottom:7px;transition:color .2s}
+.f-col a:hover{color:var(--white)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.05);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;max-width:1180px;margin-left:auto;margin-right:auto}
+.f-copy{font-size:10px;color:rgba(255,255,255,.2);letter-spacing:.05em}
+.f-socials{display:flex;gap:8px}
+.soc{width:36px;height:36px;border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.4);font-size:11px;font-weight:700;text-decoration:none;transition:all .2s}
+.soc:hover{border-color:var(--yellow);color:var(--yellow)}
+
+/* FLOAT CTA */
+.float-cta{position:fixed;bottom:24px;right:24px;z-index:999}
+.float-cta a{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:13px 20px;display:flex;align-items:center;gap:10px;box-shadow:0 4px 20px rgba(223,96,51,.4);text-decoration:none;animation:bob 3s ease-in-out infinite}
+.float-cta a:hover{background:#c4552c}
+.float-pulse{width:8px;height:8px;border-radius:50%;background:var(--yellow);flex-shrink:0}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(max-width:600px){.footer-top{grid-template-columns:1fr}.footer{padding:3rem 1.5rem 2rem}}
+@media(max-width:960px){.footer-top{grid-template-columns:1fr 1fr}}
+
+
+section.pad{padding:5rem 3rem}
+.center{text-align:center}
+.lede{max-width:640px;margin:0 auto 3rem;color:#4d5f63;font-size:17px}
+
+.legal-hero{background:var(--deep);padding:4rem 3rem;text-align:center}
+.legal-hero h1{color:#fff;font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(30px,4vw,46px);text-transform:none;margin-bottom:.5rem}
+.legal-hero p{color:rgba(255,255,255,.7);font-size:13px}
+.legal-body{max-width:760px;margin:0 auto}
+.legal-body h2{font-size:20px;color:var(--deep);text-transform:uppercase;margin:2rem 0 .8rem}
+.legal-body h2:first-child{margin-top:0}
+.legal-body p{font-size:15px;color:#444;line-height:1.8;margin-bottom:1rem}
+.legal-body ul{margin:0 0 1rem 1.2rem;color:#444;font-size:15px;line-height:1.8}
+
+
+.dd-wide{min-width:280px}
+.dd-wide a{text-transform:none;letter-spacing:.01em;font-size:12.5px;font-weight:500;line-height:1.4;padding:12px 18px}
+
+/* ===== BANNER HEADER ===== */
+.sitehead{position:relative;overflow:hidden;background:#024757;border-bottom:5px solid var(--yellow)}
+.sh-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.sh-wash{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,71,87,.30) 45%,rgba(2,30,39,.72))}
+.sh-top,.sh-nav{position:relative;z-index:2}
+@media(prefers-reduced-motion:reduce){.sh-vid{display:none}.sitehead{background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,30,39,.72)),url('nav-banner.jpg') center 45%/cover}}
+.sh-top{max-width:1320px;margin:0 auto;padding:1.5rem 2.5rem .2rem;display:flex;align-items:flex-start;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.sh-mark{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.sh-logo{font-family:var(--font-serif);font-weight:500;font-size:clamp(30px,4.2vw,54px);color:#fff;letter-spacing:.06em;line-height:1;text-shadow:0 2px 18px rgba(2,30,39,.5)}
+.sh-tag{font-family:var(--font-body);font-size:13px;line-height:1.35;color:rgba(255,255,255,.95);max-width:210px;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone{display:block;font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:#fff;margin-top:.5rem;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone:hover{color:var(--yellow)}
+.sh-right{display:flex;align-items:center;gap:14px}
+.sh-soc{display:flex;gap:9px;align-items:center}
+.sh-soc a{width:28px;height:28px;border:1px solid rgba(255,255,255,.45);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:10px;font-weight:700;color:#fff}
+.sh-soc a:hover{background:var(--yellow);border-color:var(--yellow);color:var(--deep)}
+.sh-nav{max-width:1320px;margin:0 auto;padding:.9rem 2.5rem 1.1rem;display:flex;justify-content:center;flex-wrap:wrap}
+.sh-nav .nav-links{display:flex;gap:1.5rem;align-items:center}
+.sh-nav .nav-link{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.92);text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sh-nav .nav-link:hover,.sh-nav .nav-link.active{color:var(--yellow)}
+.sh-nav .dd{background:rgba(2,30,39,.97);border-color:rgba(255,255,255,.12)}
+.sh-nav .dd a{color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.08)}
+.sh-nav .dd a:hover{color:var(--yellow);background:rgba(255,255,255,.05)}
+@media(min-width:961px) and (max-width:1320px){.sh-nav .nav-links{gap:.8rem}.sh-top,.sh-nav{padding-left:1.4rem;padding-right:1.4rem}}
+/* sticky slim bar */
+.stickybar{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.97);border-bottom:1px solid rgba(2,71,87,.12);box-shadow:0 2px 14px rgba(2,71,87,.08);transform:translateY(-100%);transition:transform .25s ease;height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem}
+.stickybar.show{transform:translateY(0)}
+.sb-logo{font-family:var(--font-display);font-size:16px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.stickybar .nav-links{display:flex;gap:1.2rem;align-items:center}
+@media(min-width:961px) and (max-width:1320px){.stickybar .nav-links{gap:.75rem}.stickybar{padding:0 1.4rem}}
+/* hamburger + drawer */
+.sh-burger{display:none;width:44px;height:38px;border:1px solid rgba(255,255,255,.5);background:rgba(2,30,39,.25);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}
+.sh-burger span{display:block;width:20px;height:2px;background:#fff;transition:transform .25s ease,opacity .2s ease}
+.drawer{position:fixed;inset:0;z-index:1200;background:var(--deep);display:flex;flex-direction:column;padding:1.4rem 1.5rem 2rem;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}
+.drawer.open{transform:translateX(0)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.6rem}
+.drawer-logo{font-family:var(--font-display);font-size:19px;font-weight:900;color:#fff;letter-spacing:.08em}
+.drawer-close{background:none;border:1px solid rgba(255,255,255,.4);color:#fff;width:40px;height:40px;font-size:22px;line-height:1;cursor:pointer}
+.drawer a.d-link{display:block;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer a.d-link:hover{color:var(--yellow)}
+.drawer a.d-sub{font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.66);padding:.6rem 0 .6rem 1rem;border-bottom:1px solid rgba(255,255,255,.07)}
+.drawer-foot{margin-top:1.8rem;display:flex;flex-direction:column;gap:.8rem}
+.drawer-foot a{font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:var(--yellow)}
+@media(max-width:960px){
+  .sh-nav{display:none}
+  .sh-burger{display:flex}
+  .sh-top{padding:1.1rem 1.25rem 1.3rem;align-items:center}
+  .sh-tag{display:none}
+  .stickybar .nav-links{display:none}
+  .stickybar{padding:0 1.25rem}
+}
+@media(min-width:961px){.drawer{display:none}}
+
+/* ===== BRAND LOCKUP ===== */
+.sh-logo{font-size:clamp(26px,3.4vw,44px) !important;line-height:1;display:block}
+.sh-logo .sh-sub{display:block;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:.45rem;text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sb-logo{display:flex;flex-direction:column;line-height:1.05}
+.sb-logo .sb-sub{font-size:8px;font-weight:700;letter-spacing:.2em;color:var(--teal);margin-top:2px}
+.drawer-logo{display:flex;flex-direction:column;line-height:1.05}
+.drawer-logo .d-sub2{font-size:8.5px;font-weight:700;letter-spacing:.2em;color:rgba(255,255,255,.55);margin-top:3px}
+.f-logo .f-sub{display:block;font-family:var(--font-display);font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:4px}
+
+.nav-right{display:flex;align-items:center;gap:14px}
+.nav-burger{display:none;border:1px solid rgba(2,71,87,.3);background:transparent}
+.nav-burger span{background:var(--deep)}
+@media(max-width:960px){.nav-burger{display:flex}}
+
+/* ===== NAV BRAND + BROKERAGE ===== */
+.nav-logo{font-size:23px !important;letter-spacing:.07em !important;line-height:1}
+.nav-ss{font-size:8.5px !important;letter-spacing:.22em !important;margin-top:3px}
+.nav-contact{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+.nav-brokered{font-family:var(--font-body,Georgia,serif);font-size:8.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#7b8a8e;margin-top:4px;white-space:nowrap}
+@media(max-width:600px){.nav-logo{font-size:19px !important}.nav-brokered{font-size:7.5px;letter-spacing:.12em}}
+</style>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sun Sanctuaries by Tomi Homes">
+<meta property="og:title" content="Privacy Policy | Tomi Homes">
+<meta property="og:description" content="Tomi Homes privacy policy: what information we collect and how we use it.">
+<meta property="og:url" content="https://imaginative-kangaroo-c59e1b.netlify.app/privacy.html">
+<meta property="og:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<style id="mobile-fixes">
+.drawer .d-link,.drawer summary.d-link{display:flex;justify-content:space-between;align-items:center;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12);text-decoration:none;background:none;line-height:1.2}
+.drawer details.d-group{border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer details.d-group>summary.d-link{border-bottom:none;cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.drawer details.d-group>summary::-webkit-details-marker{display:none}
+.drawer .d-caret{width:9px;height:9px;border-right:2px solid var(--yellow,#fecc57);border-bottom:2px solid var(--yellow,#fecc57);transform:rotate(45deg);margin:0 6px 4px 0;transition:transform .2s ease;flex:0 0 auto}
+.drawer details[open] .d-caret{transform:rotate(-135deg);margin-bottom:-4px}
+.drawer .d-group a.d-sub{display:block;font-family:var(--font-display);font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.78);padding:.7rem 0 .7rem 1rem;border-top:1px solid rgba(255,255,255,.07);text-decoration:none}
+.drawer .d-group a.d-sub:last-child{margin-bottom:.4rem}
+.drawer .d-link:hover,.drawer .d-group a.d-sub:hover{color:var(--yellow,#fecc57)}
+.drawer .d-link:focus-visible,.drawer .d-sub:focus-visible{outline:2px solid var(--yellow,#fecc57);outline-offset:2px}
+@media(max-width:600px){.float-cta{right:auto;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px))}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+ <div class="nav-brand">
+  <div class="nav-logo">SUN SANCTUARIES</div>
+  <div class="nav-ss">by Tomi Homes</div>
+ </div>
+ <div class="nav-links">
+
+ <a href="index.html" class="nav-link">Home</a>
+ <a href="tour-homes.html" class="nav-link">Tour Homes</a>
+ <div class="nav-link has-dd">Buy + Sell
+ <div class="dd">
+ <a href="buy.html">Buying a Home</a>
+ <a href="sell.html">Selling a Home</a>
+ </div>
+ </div>
+ <a href="probate.html" class="nav-link">Probate</a>
+ <a href="donate.html" class="nav-link">Donate</a>
+ <a href="team.html" class="nav-link">Our Team</a>
+ <a href="explore.html" class="nav-link">Explore AZ</a>
+ <div class="nav-link has-dd reloc-dd">Relocation
+ <div class="dd dd-wide">
+ <a href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+ <a href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+ </div>
+ </div>
+ <a href="blog.html" class="nav-link">Blog</a>
+ <a href="drop-us-a-like.html" class="nav-link">Drop Us a Like</a>
+ </div>
+ <div class="nav-right">
+  <div class="nav-contact"><a href="tel:6024057941" class="nav-phone">602.405.7941</a><span class="nav-brokered">Brokered by W &amp; Partners</span></div>
+  <button class="sh-burger nav-burger" aria-label="Open menu" aria-controls="drawer"><span></span><span></span><span></span></button>
+ </div>
+</nav>
+
+<nav class="drawer" id="drawer" aria-label="Mobile menu">
+  <div class="drawer-head">
+    <span class="drawer-logo">SUN SANCTUARIES<span class="d-sub2">by Tomi Homes</span></span>
+    <button class="drawer-close" aria-label="Close menu">&times;</button>
+  </div>
+    <a class="d-link" href="index.html">Home</a>
+    <a class="d-link" href="tour-homes.html">Tour Homes</a>
+    <details class="d-group">
+      <summary class="d-link">Buy + Sell<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="buy.html">Buying a Home</a>
+      <a class="d-sub" href="sell.html">Selling a Home</a>
+    </details>
+    <a class="d-link" href="probate.html">Probate</a>
+    <a class="d-link" href="donate.html">Donate</a>
+    <a class="d-link" href="team.html">Our Team</a>
+    <a class="d-link" href="explore.html">Explore AZ</a>
+    <details class="d-group">
+      <summary class="d-link">Relocation<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+      <a class="d-sub" href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+    </details>
+    <a class="d-link" href="blog.html">Blog</a>
+    <a class="d-link" href="drop-us-a-like.html">Drop Us a Like</a>
+  <div class="drawer-foot">
+    <a href="tel:6024057941">Call or Text 602.405.7941</a>
+    <a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a>
+  </div>
+</nav>
+
+
+
+<section class="legal-hero">
+  <div class="ey ey-white" style="justify-content:center">Legal</div>
+  <h1>Privacy Policy</h1>
+  <p>Last updated August 2026</p>
+</section>
+
+<section class="pad">
+  <div class="legal-body">
+    <h2>What We Collect</h2>
+    <p>When you fill out a form on this site, whether it's requesting the Buyer's Guide, the Seller's Guide, a home valuation, or reaching out through our contact page, we collect the information you provide: your name, email address, phone number, and any details you share about your real estate needs.</p>
+
+    <h2>How We Use It</h2>
+    <p>We use your information to respond to your inquiry, send the resources you requested, and follow up about buying, selling, or relocating in Arizona. Your information is stored in our client relationship management system and may be used for future outreach related to real estate services.</p>
+    <ul>
+      <li>Delivering guides, valuations, or other resources you request</li>
+      <li>Following up on your inquiry by phone, text, or email</li>
+      <li>Sending occasional market updates, unless you opt out</li>
+    </ul>
+
+    <h2>What We Don't Do</h2>
+    <p>We don't sell your information to third parties. We don't share your contact details outside our team and the tools we use to run our business (like our CRM and email systems).</p>
+
+    <h2>Cookies and Site Data</h2>
+    <p>This site may use basic analytics to understand how visitors use it. This helps us improve the site, it doesn't identify you personally.</p>
+
+    <h2>Your Choices</h2>
+    <p>You can ask us to stop contacting you, update your information, or remove your data from our systems at any time. Just reach out using the contact information below.</p>
+
+    <h2>Contact Us</h2>
+    <p>Questions about this policy? Reach out at <a href="mailto:tomi@tomihomes.com" style="color:var(--orange)">tomi@tomihomes.com</a> or 602.405.7941.</p>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-top">
+    <div>
+      <div class="f-logo">SUN SANCTUARIES<span class="f-sub">by Tomi Homes</span></div>
+      <div class="f-tag">Your Guide to Loving and Living in Arizona.<br>Discover. Dream. Live AZ.</div>
+      <div class="f-contact">
+        <a href="tel:6024057941">602.405.7941</a>
+        <a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a>
+        <a href="https://imaginative-kangaroo-c59e1b.netlify.app">tomihomes.com</a>
+      </div>
+      <div class="f-broker">Brokered by W &amp; Partners</div>
+    </div>
+    <div class="f-col">
+      <h5>Navigate</h5>
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy a Home</a>
+      <a href="sell.html">Sell a Home</a>
+      <a href="team.html">Our Team</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    <div class="f-col">
+      <h5>Services</h5>
+      <a href="relocation.html">Relocation</a>
+      <a href="probate.html">Probate</a>
+      <a href="donate.html">Give Back</a>
+      <a href="sell.html#valuation">Home Valuation</a>
+      <a href="buy.html#guide">Free Buyer's Guide</a>
+      <a href="sell.html#guide">Free Seller's Guide</a>
+    </div>
+    <div class="f-col">
+      <h5>Explore AZ</h5>
+      <a href="explore.html#phoenix">Phoenix</a>
+      <a href="explore.html#scottsdale">Scottsdale</a>
+      <a href="explore.html#glendale">Glendale</a>
+      <a href="explore.html#gilbert">Gilbert</a>
+      <a href="explore.html#flagstaff">Flagstaff</a>
+      <a href="explore.html">+ 15 more &rarr;</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="f-copy">&copy; 2026 Tomi Homes &middot; Sun Sanctuaries &middot; <a href="privacy.html" style="color:inherit">Privacy Policy</a> &middot; All rights reserved</div>
+    <div class="f-socials">
+      <a href="https://share.google/0S2BMWJBeRl2VOv20" target="_blank" class="soc">G</a>
+      <a href="https://www.instagram.com/tomihomesaz/" target="_blank" class="soc">IG</a>
+      <a href="https://www.facebook.com/TomiHomesAZ" target="_blank" class="soc">FB</a>
+      <a href="https://www.youtube.com/@sunsanctuaries" target="_blank" class="soc">YT</a>
+      <a href="https://www.yelp.com/biz/tomi-homes-phoenix" target="_blank" class="soc">Y!</a>
+    </div>
+  </div>
+</footer>
+
+<div class="float-cta">
+  <a href="tel:6024057941">
+    <div class="float-pulse"></div>
+    Call or Text Tomi
+  </a>
+</div>
+
+<script>
+(function(){
+var b=document.getElementById('stickybar'),h=document.querySelector('.sitehead');
+if(b&&h){var u=function(){b.classList.toggle('show',window.scrollY>h.offsetHeight-20)};
+window.addEventListener('scroll',u,{passive:true});u();}
+var d=document.getElementById('drawer');
+function open_(){d.classList.add('open');document.body.style.overflow='hidden';}
+function close_(){d.classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('click',function(e){
+ if(e.target.closest&&e.target.closest('.sh-burger')){e.preventDefault();open_();}
+ if(e.target.closest&&e.target.closest('.drawer-close')){e.preventDefault();close_();}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d&&d.classList.contains('open'))close_();});
+})();
+</script>
+</body>
+</html>

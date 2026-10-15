@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tomi Homes · Sun Sanctuaries by Tomi Homes — Arizona's women-led real estate team. 30 years of experience. Discover. Dream. Live AZ.">
+<title>Tomi Homes · Sun Sanctuaries · Arizona Real Estate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;900&family=Livvic:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit;border:none;outline:none}
+img{display:block;max-width:100%}
+
+:root{
+ --blush:#ecc3b9;
+ --teal:#6db8b7;
+ --orange:#df6033;
+ --deep:#024757;
+ --sage:#acc66d;
+ --peach:#f8d1a0;
+ --yellow:#fecc57;
+ --coral:#f56e6e;
+ --warm-org:#fea250;
+ --olive:#859f3c;
+ --white:#FFFFFF;
+ --black:#111111;
+ --off-white:#FDF9F7;
+ --light-blush:#f5ddd7;
+ --font-display:'Big Shoulders Display','Arial Black',sans-serif;
+ --font-body:'Livvic','Georgia',serif;--gold:#b8935a;--gold-light:#d9bd8c;--font-serif:'Playfair Display','Georgia',serif;--charcoal:#1b1f22;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 3rem}
+.lets-talk{position:relative;overflow:hidden;background:var(--charcoal);padding:5.5rem 3rem;min-height:560px;display:flex;align-items:center}
+.lt-photo{position:absolute;top:0;right:0;bottom:0;width:58%;background-size:cover;background-position:center}
+.lt-photo::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--charcoal) 0%,rgba(27,31,34,0) 40%)}
+.lt-inner{position:relative;z-index:2;max-width:560px;margin-right:auto;margin-left:0}
+.lt-title{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(38px,4.8vw,60px);color:#fff;text-transform:none;line-height:1.05;margin-bottom:18px}
+.lt-rule{width:130px;height:3px;background:#fff;margin-bottom:22px}
+.lt-sub{font-family:var(--font-display);font-weight:600;font-size:clamp(15px,1.6vw,19px);letter-spacing:.1em;color:var(--gold-light);text-transform:uppercase;line-height:1.3;margin-bottom:30px;max-width:340px}
+.lt-form label{display:block;color:#fff;font-size:14px;margin-bottom:6px}
+.lt-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.lt-form input{width:100%;padding:13px 14px;border:none;border-radius:4px;font-family:inherit;font-size:15px;background:#fff}
+.lt-form .lt-field{margin-bottom:16px}
+.lt-form button{margin-top:10px;background:var(--gold);color:#fff;font-family:var(--font-display);font-weight:600;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;padding:16px 32px;border:none;cursor:pointer}
+.lt-form button:hover{background:var(--gold-light)}
+@media(max-width:900px){.lt-photo{width:100%;opacity:1}.lt-photo::before{background:linear-gradient(0deg,rgba(27,31,34,0.8) 0%,rgba(27,31,34,0.4) 40%,rgba(27,31,34,0.05) 100%)}.lets-talk{padding:4rem 1.5rem}.lt-row{grid-template-columns:1fr}}
+
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--white);color:var(--black);overflow-x:hidden;font-size:16px;line-height:1.6}
+h1,h2,h3,h4,h5{font-family:var(--font-display);letter-spacing:0.01em}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.a1{animation:fadeUp .7s .1s ease forwards;opacity:0}
+.a2{animation:fadeUp .7s .3s ease forwards;opacity:0}
+.a3{animation:fadeUp .7s .5s ease forwards;opacity:0}
+.a4{animation:fadeUp .7s .7s ease forwards;opacity:0}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:13px 28px;transition:all .2s;cursor:pointer;border:none;white-space:nowrap}
+.btn-orange{background:var(--orange);color:var(--white)}
+.btn-orange:hover{background:#c4552c}
+.btn-teal{background:var(--teal);color:var(--white);position:relative;z-index:2}
+.btn-teal:hover{background:#5aa3a2}
+.btn-deep{background:var(--deep);color:var(--white)}
+.btn-deep:hover{opacity:.88}
+.btn-yellow{background:var(--yellow);color:var(--black);position:relative;z-index:2}
+.btn-yellow:hover{background:#e8b840}
+.btn-outline-white{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.55)}
+.btn-outline-white:hover{border-color:var(--yellow);color:var(--yellow)}
+.btn-outline-dark{background:transparent;color:var(--deep);border:2px solid var(--deep)}
+.btn-outline-dark:hover{background:var(--deep);color:var(--white)}
+.btn-white-bg{background:var(--white);color:var(--orange);font-family:var(--font-display);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:13px 28px;border:none;cursor:pointer;transition:all .2s;white-space:nowrap;display:inline-block}
+.btn-white-bg:hover{background:var(--off-white)}
+
+/* NAV */
+.nav{background:var(--white);min-height:52px;display:flex;align-items:center;justify-content:space-between;padding:.5rem 2.5rem;position:sticky;top:0;z-index:1000;border-bottom:1px solid rgba(2,71,87,.1);box-shadow:0 2px 12px rgba(2,71,87,.05)}
+.nav-brand{display:flex;flex-direction:column;line-height:1.1;gap:1px}
+.nav-logo{font-family:var(--font-display);font-size:18px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.nav-ss{font-size:7.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);font-weight:600}
+.nav-links{display:flex;gap:1.8rem;align-items:center}
+@media(min-width:961px) and (max-width:1340px){.nav-links{gap:.82rem}.nav{padding-left:1.2rem;padding-right:1.2rem}}
+.nav-link{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#555;transition:color .2s;position:relative;cursor:pointer}
+.nav-link:hover{color:var(--orange)}
+.has-dd{display:flex;align-items:center;gap:3px}
+.dd{position:absolute;top:100%;padding-top:18px;margin-top:-1px;left:0;background:var(--white);border:1px solid rgba(2,71,87,.1);min-width:180px;display:none;flex-direction:column;box-shadow:0 8px 28px rgba(2,71,87,.12);z-index:200}
+.has-dd:hover .dd{display:flex}
+.dd a{padding:11px 18px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#555;border-bottom:1px solid rgba(2,71,87,.07);transition:all .15s}
+.dd a:last-child{border:none}
+.dd a:hover{color:var(--orange);background:var(--off-white);padding-left:22px}
+.nav-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.nav-logo-img{height:34px;width:auto;display:block}
+.nav-phone{font-family:var(--font-display);font-size:13px;font-weight:900;color:var(--teal);letter-spacing:.05em}
+
+/* HERO VIDEO */
+.hero{position:relative;height:92vh;min-height:560px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(160deg,rgba(2,71,87,.72) 0%,rgba(2,71,87,.45) 50%,rgba(0,0,0,.3) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;text-align:center;padding:2rem 3rem;max-width:880px}
+.hero-eyebrow{font-size:10px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:rgba(255,255,255,.75);margin-bottom:1.4rem;display:flex;align-items:center;justify-content:center;gap:12px}
+.hero-ss-top{font-family:var(--font-display);font-weight:800;font-size:clamp(20px,2.6vw,28px);letter-spacing:.08em;text-transform:uppercase;color:var(--white);margin-bottom:1.2rem;display:flex;align-items:center;justify-content:center;gap:14px}
+.hero-ss-top::before,.hero-ss-top::after{content:'';width:36px;height:1px;background:rgba(255,255,255,.5)}
+.hero-eyebrow::before,.hero-eyebrow::after{content:'';width:28px;height:1.5px;background:var(--yellow)}
+.hero-h1{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(38px,5.6vw,72px);text-transform:none;color:var(--white);line-height:1.08;margin-bottom:1.2rem}
+.hero-h1 .gold{color:var(--yellow)}
+.hero-h1 .teal{color:var(--teal)}
+.hero-tagline{font-size:17px;font-weight:300;color:rgba(255,255,255,.8);line-height:1.7;margin-bottom:.6rem;max-width:560px;margin-left:auto;margin-right:auto}
+.hero-ss{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:2.2rem;display:flex;align-items:center;justify-content:center;gap:10px}
+.hero-ss::before,.hero-ss::after{content:'';width:16px;height:1px;background:rgba(255,255,255,.3)}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.hero-scroll{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:6px;color:rgba(255,255,255,.4);font-size:9px;letter-spacing:.15em;text-transform:uppercase}
+.hero-scroll-line{width:1px;height:32px;background:rgba(255,255,255,.25);animation:bob 2s ease-in-out infinite}
+
+/* TRUST BAR */
+.trust{background:var(--deep);padding:0 3rem;display:flex;align-items:stretch;justify-content:space-between;flex-wrap:nowrap;overflow:hidden}
+.trust-item{color:rgba(255,255,255,.7);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:8px;white-space:nowrap;padding:.85rem 0;flex:1;justify-content:center;transition:color .2s}
+.trust-item:hover{color:var(--yellow)}
+.trust-item svg{opacity:.6;flex-shrink:0}
+.trust-item:hover svg{opacity:1}
+.trust-div{width:1px;background:rgba(255,255,255,.1);flex-shrink:0;align-self:stretch}
+
+/* TICKER */
+.ticker{background:#021e27;height:44px;overflow:hidden;display:flex;border-top:1px solid rgba(255,255,255,.05)}
+.ticker-label{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:9.5px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;padding:0 22px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0;gap:8px}
+.ticker-scroll{overflow:hidden;flex:1;display:flex;align-items:center}
+.ticker-track{display:flex;white-space:nowrap;animation:ticker 36s linear infinite}
+.t-item{padding:0 2.2rem;font-size:10.5px;color:rgba(255,255,255,.35);border-right:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:8px;height:44px;font-family:var(--font-body);font-weight:400;letter-spacing:.02em}
+.t-val{color:var(--yellow);font-family:var(--font-display);font-weight:900;font-size:12px}
+.t-dot{width:4px;height:4px;border-radius:50%;background:var(--teal);opacity:.5;flex-shrink:0}
+
+/* SECTION HELPERS */
+.ey{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:10px;margin-bottom:.75rem}
+.ey::before,.ey::after{content:'';width:20px;height:1px;background:var(--gold)}
+.ey-orange{color:var(--gold)}
+.ey-teal{color:var(--gold)}
+.ey-deep{color:var(--gold)}
+.ey-yellow{color:var(--gold)}
+.sec-h{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(26px,3.2vw,44px);text-transform:none;line-height:1.15;margin-bottom:.8rem}
+.sec-sub{font-size:15px;font-weight:300;line-height:1.8;max-width:520px}
+
+/* TEAM */
+.team-section{background:var(--off-white);padding:5rem 3rem}
+.team-header{margin-bottom:3rem}
+.team-grid{display:grid;grid-template-columns:repeat(3,320px);gap:2rem;margin-bottom:1.5rem;justify-content:center}
+
+/* Baby photo hover effect */
+.tc{background:transparent;overflow:visible;transition:transform .25s,box-shadow .25s;position:relative}
+.tc:hover{transform:translateY(-5px);box-shadow:0 16px 48px rgba(2,71,87,.12)}
+.tc.star{outline:none}
+.tc-photo{height:480px;width:320px;position:relative;display:flex;align-items:flex-end;cursor:pointer;border-radius:160px 160px 0 0;overflow:hidden;flex-shrink:0}
+/* Real photo layer */
+.tc-real{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;transition:opacity .4s ease;will-change:auto}
+/* Baby photo layer — hidden by default, shown on hover */
+.tc-baby{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition:opacity .4s ease}
+.tc-photo:hover .tc-real{opacity:0}
+.tc-photo:hover .tc-baby{opacity:1}
+/* Gradient placeholder for missing photos */
+.ph-tomi{background:linear-gradient(170deg,var(--deep) 0%,#036b82 60%,var(--teal) 100%);border-radius:180px 180px 0 0}
+.ph-megan{background:linear-gradient(170deg,var(--teal) 0%,var(--sage) 100%);border-radius:180px 180px 0 0}
+.ph-alice{background:linear-gradient(170deg,#acc66d 0%,var(--deep) 100%);border-radius:180px 180px 0 0}
+.tc-ph-inner{position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);text-align:center;z-index:1}
+.tc-ph-icon{font-size:40px;margin-bottom:8px;opacity:.35}
+.tc-ph-name{color:rgba(255,255,255,.25);font-family:var(--font-display);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.tc-ph-note{color:rgba(255,255,255,.15);font-size:9px;letter-spacing:.1em;text-transform:uppercase;margin-top:3px}
+/* Hover hint badge */
+.hover-hint{display:none}
+.tc-photo:hover .hover-hint{opacity:0}
+.tc-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(2,71,87,.92));padding:1.5rem;z-index:3}
+.tc-name{font-family:var(--font-display);font-size:22px;font-weight:900;text-transform:uppercase;color:var(--white);line-height:1}
+.tc-title{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px}
+.broker-chip{position:absolute;top:14px;left:14px;background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;z-index:4}
+.tc-body{padding:.8rem 1rem 0}
+.tc-pills{display:none}.pill{display:none}
+.tc-btn{display:block;text-align:center;padding:11px;font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;transition:all .2s}
+.tc-btn-orange{background:var(--orange);color:var(--white)}
+.tc-btn-orange:hover{background:#c4552c}
+.tc-btn-teal{background:var(--teal);color:var(--white)}
+.tc-btn-teal:hover{background:#5aa3a2}
+.tc-btn-sage{background:var(--sage);color:var(--white)}
+.tc-btn-deep{background:var(--deep);color:var(--white)}
+.tc-btn-deep:hover{background:#036b82}
+.tc-center{transform:scale(1.03);position:relative;z-index:2}
+.tc-btn-sage:hover{opacity:.85}
+.team-bar{background:var(--deep);padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.team-bar h4{font-family:var(--font-display);font-size:20px;font-weight:900;text-transform:uppercase;color:var(--white);line-height:1}
+.team-bar p{font-size:12px;color:rgba(255,255,255,.45);margin-top:4px}
+
+/* TOMI STATEMENTS */
+.tomi-says{background:var(--deep);padding:5rem 3rem;display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.ts-left h2{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(30px,3.6vw,48px);text-transform:none;color:var(--white);line-height:1.15;margin-bottom:1.5rem}
+.ts-left h2 span{color:var(--gold-light)}
+.ts-left p{font-size:15px;font-weight:300;color:rgba(255,255,255,.6);line-height:1.8;margin-bottom:2rem}
+.statements{display:flex;flex-direction:column}
+.stmt{display:grid;grid-template-columns:100px 1fr;gap:1rem;align-items:baseline;border-top:1px solid rgba(255,255,255,.08);padding:.9rem 0}
+.stmt:last-child{border-bottom:1px solid rgba(255,255,255,.08)}
+.stmt-lbl{font-family:var(--font-display);font-size:13px;font-weight:900;text-transform:uppercase;color:var(--gold-light);letter-spacing:.08em}
+.stmt-txt{font-family:var(--font-display);font-size:clamp(15px,1.6vw,19px);font-weight:700;text-transform:uppercase;color:var(--white);line-height:1.2}
+
+/* TOOLKITS */
+.toolkits{background:var(--blush);padding:5rem 3rem}
+.tk-header{margin-bottom:3rem}
+.tk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.tk-card{background:var(--white);overflow:hidden;display:flex;flex-direction:column;transition:all .2s;border-bottom:3px solid transparent;position:relative}
+.tk-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(2,71,87,.15)}
+.tk-buyer{border-bottom-color:var(--teal)}
+.tk-seller{border-bottom-color:var(--orange)}
+.tk-relo{border-bottom-color:var(--sage)}
+/* Photo header */
+/* Full-bleed photo toolkit cards */
+.tk-card{background:var(--white);overflow:hidden;display:flex;flex-direction:column;transition:all .3s;position:relative;min-height:480px}
+.tk-card:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(2,71,87,.18)}
+.tk-buyer{border-bottom:3px solid var(--teal)}
+.tk-seller{border-bottom:3px solid var(--orange)}
+.tk-relo{border-bottom:3px solid var(--sage)}
+/* Background photo fills the full card */
+.tk-bg-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.tk-card:hover .tk-bg-photo{transform:scale(1.04)}
+/* Gradient overlay — heavy at bottom for legibility */
+.tk-overlay-full{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:2rem}
+.tk-buyer .tk-overlay-full{background:linear-gradient(to bottom,rgba(109,184,183,.15) 0%,rgba(2,71,87,.6) 40%,rgba(2,71,87,.92) 100%)}
+.tk-seller .tk-overlay-full{background:linear-gradient(to bottom,rgba(223,96,51,.1) 0%,rgba(2,71,87,.55) 40%,rgba(2,71,87,.92) 100%)}
+.tk-relo .tk-overlay-full{background:linear-gradient(to bottom,rgba(172,198,109,.1) 0%,rgba(2,71,87,.5) 40%,rgba(2,71,87,.9) 100%)}
+.tk-tag{font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;display:inline-block;padding:4px 12px;margin-bottom:.75rem;width:fit-content}
+.tk-buyer .tk-tag{background:var(--teal);color:var(--white)}
+.tk-seller .tk-tag{background:var(--yellow);color:var(--black)}
+.tk-relo .tk-tag{background:var(--orange);color:var(--white)}
+.tk-title{font-family:var(--font-display);font-size:clamp(24px,2vw,30px);font-weight:900;text-transform:uppercase;color:var(--white);line-height:1;margin-bottom:.6rem}
+.tk-desc{font-size:13px;font-weight:300;color:rgba(255,255,255,.75);line-height:1.65;margin-bottom:1rem}
+.tk-list{list-style:none;display:flex;flex-direction:column;gap:5px;margin-bottom:1.2rem}
+.tk-list li{font-size:11.5px;color:rgba(255,255,255,.65);padding-left:14px;position:relative;line-height:1.4}
+.tk-list li::before{content:'→';position:absolute;left:0;color:var(--yellow);font-size:10px;top:1px}
+.tk-btn{display:block;text-align:center;padding:13px;font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;transition:all .2s;border:none;cursor:pointer}
+.tk-buyer .tk-btn{background:var(--teal);color:var(--white)}
+.tk-buyer .tk-btn:hover{background:#5aa3a2}
+.tk-seller .tk-btn{background:var(--orange);color:var(--white)}
+.tk-seller .tk-btn:hover{background:#c4552c}
+.tk-relo .tk-btn{background:var(--sage);color:var(--white)}
+.tk-relo .tk-btn:hover{opacity:.85}
+.tk-note{text-align:center;margin-top:1.5rem;font-size:10px;color:rgba(2,71,87,.4);letter-spacing:.1em;text-transform:uppercase}
+
+/* VALUATION */
+.val{background:var(--orange);padding:2.5rem 3rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap}
+.val h3{font-family:var(--font-display);font-size:clamp(20px,2.5vw,30px);font-weight:900;text-transform:uppercase;color:var(--white);line-height:1}
+.val p{font-size:13px;color:rgba(255,255,255,.8);margin-top:6px}
+
+/* BUY/SELL */
+.buysell{display:grid;grid-template-columns:1fr 1fr}
+.bs{padding:5rem 3.5rem;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:1.4rem;min-height:380px;justify-content:center}
+.bs-buy{background:linear-gradient(135deg,#024757 0%,#036b82 100%);position:relative;overflow:hidden}
+.bs-buy-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.2;mix-blend-mode:luminosity;z-index:0}
+.bs-sell{background:linear-gradient(135deg,#2d1200 0%,#5a2800 100%);position:relative;overflow:hidden}
+/* cactus photo background on buy panel */
+
+.bs-bg{position:absolute;bottom:-15px;right:-5px;font-family:var(--font-display);font-size:120px;font-weight:900;text-transform:uppercase;opacity:.06;pointer-events:none;line-height:1}
+.bs-buy .bs-bg{color:rgba(255,255,255,.06)}
+.bs-sell .bs-bg{color:rgba(255,255,255,.06)}
+.bs-label{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:10px;position:relative;z-index:2}
+.bs-label::before{content:'';width:20px;height:2px;background:currentColor}
+.bs-buy .bs-label{color:var(--white)}
+.bs-sell .bs-label{color:rgba(255,255,255,.65)}
+.bs-h{font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:clamp(26px,3vw,44px);text-transform:none;line-height:1.15;position:relative;z-index:2}
+.bs-buy .bs-h{color:var(--white);text-shadow:0 2px 16px rgba(0,0,0,.7)}
+.bs-sell .bs-h{color:var(--white)}
+.bs-p{font-size:16px;font-weight:300;line-height:1.85;max-width:460px;position:relative;z-index:2}
+.bs-buy .bs-p{color:rgba(255,255,255,.95);text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.bs-sell .bs-p{color:rgba(255,255,255,.88)}
+
+/* LISTINGS */
+.listings{padding:5rem 3rem;background:var(--white)}
+.l-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.your-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);margin-bottom:1rem;display:flex;align-items:center;gap:10px}
+.your-label::after{content:'';flex:1;height:1px;background:rgba(223,96,51,.2)}
+.l-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.l-card{background:var(--off-white);overflow:hidden;transition:transform .2s,box-shadow .2s}
+.l-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(2,71,87,.1)}
+.l-img{height:210px;position:relative;display:flex;align-items:center;justify-content:center}
+.l-img-1{background:linear-gradient(135deg,var(--deep),var(--teal))}
+.l-img-2{background:linear-gradient(135deg,#036b82,var(--sage))}
+.l-status{position:absolute;top:12px;left:12px;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px}
+.s-active{background:var(--orange);color:var(--white)}
+.s-coming{background:var(--teal);color:var(--white)}
+.l-spw{position:absolute;top:12px;right:12px;background:rgba(2,71,87,.75);color:var(--white);font-size:9px;font-weight:600;padding:4px 8px;letter-spacing:.08em;text-transform:uppercase;transition:all .2s}
+.l-spw:hover{background:var(--yellow);color:var(--black)}
+.l-ph{color:rgba(255,255,255,.15);font-family:var(--font-display);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.l-body{padding:1.3rem}
+.l-price{font-family:var(--font-display);font-size:26px;font-weight:900;color:var(--deep)}
+.l-addr{font-size:13px;color:#666;margin:4px 0}
+.l-type{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:8px}
+.l-details{display:flex;gap:1rem;font-size:11px;color:#999}
+.l-search{background:var(--deep);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2.5rem;text-align:center;min-height:280px}
+.l-search .big{font-family:var(--font-display);font-size:32px;font-weight:900;text-transform:uppercase;color:var(--white);line-height:1;margin-bottom:1.5rem}
+.l-search .sub{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--yellow);margin-bottom:1rem;font-family:var(--font-display)}
+.mls-div{margin:3rem 0 1.5rem;display:flex;align-items:center;gap:1.5rem}
+.mls-line{flex:1;height:1px;background:rgba(2,71,87,.08)}
+.mls-txt{font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#bbb;white-space:nowrap}
+.mls-box{background:var(--off-white);border:2px dashed rgba(2,71,87,.12);padding:3rem;text-align:center;display:flex;flex-direction:column;align-items:center;gap:1rem}
+.mls-box h4{font-family:var(--font-display);font-size:22px;font-weight:900;text-transform:uppercase;color:var(--deep)}
+.mls-box p{font-size:13px;color:#888;max-width:400px}
+.mls-chip{font-size:10px;color:#aaa;letter-spacing:.08em;text-transform:uppercase;background:rgba(2,71,87,.05);padding:6px 14px}
+
+/* TESTIMONIALS */
+.testi{background:var(--deep);padding:5rem 3rem}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.tc-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:2rem;display:flex;flex-direction:column;gap:1rem;transition:border-color .2s}
+.tc-card:hover{border-color:rgba(254,204,87,.35)}
+.tc-stars{color:var(--yellow);font-size:14px;letter-spacing:3px}
+.tc-text{font-size:14px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.8;font-style:italic;flex:1}
+.tc-author{font-family:var(--font-display);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow)}
+.tc-loc{font-size:11px;color:rgba(255,255,255,.3)}
+.testi-footer{text-align:center;margin-top:2.5rem}
+
+/* NEIGHBORHOODS */
+.hoods{padding:5rem 3rem;background:var(--blush)}
+.hoods-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.hoods-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(2,71,87,.08)}
+/* Photo-based hood cards */
+.hood{position:relative;overflow:hidden;aspect-ratio:1/1;display:flex;flex-direction:column;justify-content:flex-end;text-decoration:none;background:var(--deep)}
+.hood:hover .hood-photo{transform:scale(1.07)}
+.hood-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease,filter .3s ease;filter:brightness(.9) saturate(1.25) sepia(.18) hue-rotate(-8deg)}
+.hood:hover .hood-photo{filter:brightness(.95) saturate(1.35) sepia(.18) hue-rotate(-8deg)}
+.hood-gradient{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 20%,rgba(223,96,51,.18) 55%,rgba(2,71,87,.85) 100%)}
+.hood:hover .hood-gradient{background:linear-gradient(to bottom,transparent 10%,rgba(223,96,51,.22) 50%,rgba(2,71,87,.92) 100%)}
+.hood-text{position:relative;z-index:2;padding:1rem;display:flex;flex-direction:column;gap:3px}
+.hood-name{font-family:var(--font-display);font-size:15px;font-weight:900;text-transform:uppercase;color:var(--white);line-height:1}
+.hood-vibe{font-size:9.5px;color:rgba(255,255,255,.6);line-height:1.3}
+.hood-arr{font-size:11px;color:var(--yellow);margin-top:5px;display:inline-block;transition:transform .2s;opacity:0}
+.hood:hover .hood-arr{transform:translateX(4px);opacity:1}
+
+/* BLOG */
+.blog{background:var(--white);padding:5rem 3rem}
+.blog-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.blog-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:1.5rem}
+.b-card{background:var(--off-white);overflow:hidden;transition:transform .2s,box-shadow .2s}
+.b-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(2,71,87,.08)}
+.b-img{position:relative;display:flex;align-items:flex-end;padding:1rem}
+.b-lg{height:260px}
+.b-sm{height:150px}
+.b-navy{background:linear-gradient(160deg,var(--deep),#036b82)}
+.b-sage{background:linear-gradient(160deg,var(--sage),var(--deep))}
+.b-orange{background:linear-gradient(160deg,var(--orange),var(--deep))}
+.b-tag{font-family:var(--font-display);font-size:9px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;display:inline-block}
+.t-mkt{background:var(--yellow);color:var(--black)}
+.t-sell{background:var(--teal);color:var(--white)}
+.t-life{background:var(--orange);color:var(--white)}
+.b-body{padding:1.3rem}
+.b-title{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--deep);line-height:1.2;margin-bottom:6px}
+.b-feat .b-title{font-size:22px}
+.b-excerpt{font-size:12px;color:#666;line-height:1.7;margin-bottom:8px}
+.b-meta{display:flex;align-items:center;gap:8px;font-size:10px;color:#aaa}
+.b-av{width:20px;height:20px;border-radius:50%;background:var(--teal);display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;color:var(--white);flex-shrink:0}
+.b-dot{width:3px;height:3px;border-radius:50%;background:#ccc}
+
+/* FOOTER */
+.footer{background:#021e27;padding:4rem 3rem 2rem}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.f-logo{font-family:var(--font-display);font-size:28px;font-weight:900;color:var(--yellow);letter-spacing:.08em}
+.f-ss{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-top:2px;margin-bottom:1rem;opacity:.8}
+.f-tag{font-size:12px;color:rgba(255,255,255,.35);line-height:1.7;margin-bottom:1.2rem}
+.f-contact a{display:block;color:rgba(255,255,255,.45);font-size:13px;margin-bottom:5px;transition:color .2s}
+.f-contact a:hover{color:var(--yellow)}
+.f-broker{font-size:10px;color:rgba(255,255,255,.18);margin-top:1rem;letter-spacing:.04em}
+.f-col h5{font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--yellow);margin-bottom:1rem;opacity:.75}
+.f-col a{display:block;color:rgba(255,255,255,.38);font-size:12px;margin-bottom:7px;transition:color .2s}
+.f-col a:hover{color:var(--white)}
+.footer-logo-row{max-width:1180px;margin:0 auto 1.4rem;display:flex;justify-content:flex-end;padding-right:190px}
+.footer-logo-img{height:86px;width:auto;display:block;opacity:.95}
+@media(max-width:900px){.footer-logo-row{justify-content:center;padding-right:0;margin-bottom:1.8rem}.footer-logo-img{height:72px}}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.05);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.f-copy{font-size:10px;color:rgba(255,255,255,.2);letter-spacing:.05em}
+.f-socials{display:flex;gap:8px}
+.soc{width:36px;height:36px;border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.4);font-size:11px;font-weight:700;text-decoration:none;transition:all .2s}
+.soc:hover{border-color:var(--yellow);color:var(--yellow)}
+
+/* FLOAT CTA */
+.float-cta{position:fixed;bottom:24px;right:24px;z-index:999}
+.float-cta a{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:13px 20px;display:flex;align-items:center;gap:10px;box-shadow:0 4px 20px rgba(223,96,51,.4);text-decoration:none;animation:bob 3s ease-in-out infinite}
+.float-cta a:hover{background:#c4552c}
+.float-pulse{width:8px;height:8px;border-radius:50%;background:var(--yellow);flex-shrink:0}
+
+/* RESPONSIVE */
+@media(max-width:960px){
+ .hero-content{padding:2rem 1.5rem}
+ .hero-h1{font-size:clamp(40px,8vw,64px)}
+ .tomi-says{grid-template-columns:1fr;gap:2.5rem;padding:3rem 1.5rem}
+ .team-grid,.tk-grid,.testi-grid{grid-template-columns:1fr}
+ .buysell{grid-template-columns:1fr}
+ .l-grid{grid-template-columns:1fr 1fr}
+ .hoods-grid{grid-template-columns:repeat(2,1fr)}
+ .blog-grid{grid-template-columns:1fr}
+ .footer-top{grid-template-columns:1fr 1fr}
+ .nav-links{display:none}
+ .trust{justify-content:center}
+ .trust-div{display:none}
+ .val{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:600px){
+ .l-grid{grid-template-columns:1fr}
+ .hoods-grid{grid-template-columns:repeat(2,1fr)}
+ .footer-top{grid-template-columns:1fr}
+ .team-section,.toolkits,.listings,.testi,.hoods,.blog,.tomi-says{padding-left:1rem;padding-right:1rem}
+ .bs{padding:3rem 1.5rem}
+ .hero{height:100svh}
+}
+
+/* ── FEATURED LISTINGS GRID ── */
+.feat-listings-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:3rem}
+.feat-card{position:relative;overflow:hidden;aspect-ratio:4/3;display:block;text-decoration:none;background:var(--deep)}
+.feat-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease;filter:brightness(.92)}
+.feat-card:hover img{transform:scale(1.06);filter:brightness(.6)}
+/* Gradient — subtle always, heavy on hover */
+.feat-card-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,rgba(2,71,87,.0) 100%);transition:background .35s;z-index:2}
+.feat-card:hover .feat-card-overlay{background:linear-gradient(to bottom,rgba(2,71,87,.3) 0%,rgba(2,71,87,.85) 100%)}
+/* Placeholder bg for no-photo cards */
+.feat-ph-teal{background:linear-gradient(135deg,var(--deep),var(--teal))}
+.feat-ph-sage{background:linear-gradient(135deg,var(--teal),var(--sage))}
+.feat-ph-orange{background:linear-gradient(135deg,var(--orange),var(--deep))}
+.feat-ph-deep{background:linear-gradient(135deg,#021e27,var(--deep))}
+/* Always-visible status badge */
+.feat-badge{position:absolute;top:14px;left:14px;z-index:4;display:flex;gap:6px;align-items:center}
+.feat-status{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:9px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;padding:4px 11px;display:flex;align-items:center;gap:5px}
+.feat-status::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--white);animation:blink 1.5s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.feat-55{background:var(--teal);color:var(--white);font-family:var(--font-display);font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:4px 11px}
+/* Hover info — hidden by default, slides up on hover */
+.feat-info{position:absolute;bottom:0;left:0;right:0;z-index:3;padding:1.6rem 1.4rem 1.4rem;transform:translateY(105%);transition:transform .35s cubic-bezier(.25,.46,.45,.94);display:flex;flex-direction:column;gap:5px}
+.feat-card:hover .feat-info{transform:translateY(0)}
+.feat-info-addr{font-family:var(--font-display);font-size:16px;font-weight:900;text-transform:uppercase;color:var(--white);line-height:1.1}
+.feat-info-city{font-size:10px;color:rgba(255,255,255,.55);letter-spacing:.05em;margin-top:1px}
+.feat-info-row{display:flex;align-items:center;gap:7px;margin-top:5px;flex-wrap:wrap}
+.feat-info-stat{font-family:var(--font-display);font-size:14px;font-weight:900;color:var(--yellow)}
+.feat-info-div{width:1px;height:12px;background:rgba(255,255,255,.2)}
+.feat-info-type{font-size:10px;color:rgba(255,255,255,.45);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
+.feat-info-cta{margin-top:.8rem;background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:10px;text-align:center;transition:background .2s}
+.feat-card:hover .feat-info-cta:hover{background:#c4552c}
+/* placeholder text */
+.feat-ph-label{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:rgba(255,255,255,.12);font-family:var(--font-display);font-size:11px;letter-spacing:.12em;text-transform:uppercase;z-index:2;white-space:nowrap;pointer-events:none}
+@media(max-width:900px){.feat-listings-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.feat-listings-grid{grid-template-columns:1fr}}
+
+/* ── SUBSCRIBE BANNER ── */
+.subscribe{position:relative;overflow:hidden;min-height:220px;display:flex;align-items:center;padding:3rem;background:var(--teal)}
+.subscribe-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 88%}
+.subscribe-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(109,184,183,.88) 0%,rgba(109,184,183,.65) 50%,rgba(109,184,183,.3) 100%)}
+.subscribe-content{position:relative;z-index:2;max-width:560px}
+.subscribe-tag{display:inline-block;background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:900;letter-spacing:.15em;text-transform:uppercase;padding:8px 22px;border:3px solid var(--teal);margin-bottom:1.2rem}
+.subscribe-h{font-family:var(--font-display);font-size:clamp(28px,3.5vw,46px);font-weight:900;color:var(--white);line-height:1;margin-bottom:.6rem;text-shadow:0 2px 12px rgba(2,71,87,.25)}
+.subscribe-sub{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:1.5rem}
+.subscribe-form{display:flex;gap:0;max-width:460px}
+.subscribe-input{flex:1;background:rgba(255,255,255,.95);border:none;padding:13px 18px;font-family:var(--font-body);font-size:13px;color:var(--deep);outline:none}
+.subscribe-input::placeholder{color:rgba(2,71,87,.4)}
+.subscribe-btn{background:var(--orange);color:var(--white);font-family:var(--font-display);font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;padding:13px 24px;border:none;cursor:pointer;white-space:nowrap;transition:background .2s}
+.subscribe-btn:hover{background:#c4552c}
+.subscribe-note{font-size:9.5px;color:rgba(255,255,255,.55);margin-top:.6rem;letter-spacing:.06em}
+
+
+.dd-wide{min-width:280px}
+.dd-wide a{text-transform:none;letter-spacing:.01em;font-size:12.5px;font-weight:500;line-height:1.4;padding:12px 18px}
+
+.ey-white{color:rgba(255,255,255,.8)}
+.feat-agent-tag{font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
+
+/* ===== BANNER HEADER ===== */
+.sitehead{position:relative;overflow:hidden;background:#024757;border-bottom:5px solid var(--yellow)}
+.sh-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.sh-wash{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,71,87,.30) 45%,rgba(2,30,39,.72))}
+.sh-top,.sh-nav{position:relative;z-index:2}
+@media(prefers-reduced-motion:reduce){.sh-vid{display:none}.sitehead{background:linear-gradient(180deg,rgba(2,71,87,.42),rgba(2,30,39,.72)),url('nav-banner.jpg') center 45%/cover}}
+.sh-top{max-width:1320px;margin:0 auto;padding:1.5rem 2.5rem .2rem;display:flex;align-items:flex-start;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.sh-mark{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.sh-logo{font-family:var(--font-serif);font-weight:500;font-size:clamp(30px,4.2vw,54px);color:#fff;letter-spacing:.06em;line-height:1;text-shadow:0 2px 18px rgba(2,30,39,.5)}
+.sh-tag{font-family:var(--font-body);font-size:13px;line-height:1.35;color:rgba(255,255,255,.95);max-width:210px;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone{display:block;font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:#fff;margin-top:.5rem;text-shadow:0 1px 10px rgba(2,30,39,.6)}
+.sh-phone:hover{color:var(--yellow)}
+.sh-right{display:flex;align-items:center;gap:14px}
+.sh-soc{display:flex;gap:9px;align-items:center}
+.sh-soc a{width:28px;height:28px;border:1px solid rgba(255,255,255,.45);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:10px;font-weight:700;color:#fff}
+.sh-soc a:hover{background:var(--yellow);border-color:var(--yellow);color:var(--deep)}
+.sh-nav{max-width:1320px;margin:0 auto;padding:.9rem 2.5rem 1.1rem;display:flex;justify-content:center;flex-wrap:wrap}
+.sh-nav .nav-links{display:flex;gap:1.5rem;align-items:center}
+.sh-nav .nav-link{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.92);text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sh-nav .nav-link:hover,.sh-nav .nav-link.active{color:var(--yellow)}
+.sh-nav .dd{background:rgba(2,30,39,.97);border-color:rgba(255,255,255,.12)}
+.sh-nav .dd a{color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.08)}
+.sh-nav .dd a:hover{color:var(--yellow);background:rgba(255,255,255,.05)}
+@media(min-width:961px) and (max-width:1320px){.sh-nav .nav-links{gap:.8rem}.sh-top,.sh-nav{padding-left:1.4rem;padding-right:1.4rem}}
+/* sticky slim bar */
+.stickybar{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.97);border-bottom:1px solid rgba(2,71,87,.12);box-shadow:0 2px 14px rgba(2,71,87,.08);transform:translateY(-100%);transition:transform .25s ease;height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem}
+.stickybar.show{transform:translateY(0)}
+.sb-logo{font-family:var(--font-display);font-size:16px;font-weight:900;color:var(--deep);letter-spacing:.08em}
+.stickybar .nav-links{display:flex;gap:1.2rem;align-items:center}
+@media(min-width:961px) and (max-width:1320px){.stickybar .nav-links{gap:.75rem}.stickybar{padding:0 1.4rem}}
+/* hamburger + drawer */
+.sh-burger{display:none;width:44px;height:38px;border:1px solid rgba(255,255,255,.5);background:rgba(2,30,39,.25);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}
+.sh-burger span{display:block;width:20px;height:2px;background:#fff;transition:transform .25s ease,opacity .2s ease}
+.drawer{position:fixed;inset:0;z-index:1200;background:var(--deep);display:flex;flex-direction:column;padding:1.4rem 1.5rem 2rem;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}
+.drawer.open{transform:translateX(0)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.6rem}
+.drawer-logo{font-family:var(--font-display);font-size:19px;font-weight:900;color:#fff;letter-spacing:.08em}
+.drawer-close{background:none;border:1px solid rgba(255,255,255,.4);color:#fff;width:40px;height:40px;font-size:22px;line-height:1;cursor:pointer}
+.drawer a.d-link{display:block;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer a.d-link:hover{color:var(--yellow)}
+.drawer a.d-sub{font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.66);padding:.6rem 0 .6rem 1rem;border-bottom:1px solid rgba(255,255,255,.07)}
+.drawer-foot{margin-top:1.8rem;display:flex;flex-direction:column;gap:.8rem}
+.drawer-foot a{font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.06em;color:var(--yellow)}
+@media(max-width:960px){
+  .sh-nav{display:none}
+  .sh-burger{display:flex}
+  .sh-top{padding:1.1rem 1.25rem 1.3rem;align-items:center}
+  .sh-tag{display:none}
+  .stickybar .nav-links{display:none}
+  .stickybar{padding:0 1.25rem}
+}
+@media(min-width:961px){.drawer{display:none}}
+
+.nav-right{display:flex;align-items:center;gap:14px}
+.nav-burger{display:none;border:1px solid rgba(2,71,87,.3);background:transparent}
+.nav-burger span{background:var(--deep)}
+@media(max-width:960px){.nav-burger{display:flex}}
+
+/* ===== BRAND LOCKUP ===== */
+.sh-logo{font-size:clamp(26px,3.4vw,44px) !important;line-height:1;display:block}
+.sh-logo .sh-sub{display:block;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:.45rem;text-shadow:0 1px 8px rgba(2,30,39,.6)}
+.sb-logo{display:flex;flex-direction:column;line-height:1.05}
+.sb-logo .sb-sub{font-size:8px;font-weight:700;letter-spacing:.2em;color:var(--teal);margin-top:2px}
+.drawer-logo{display:flex;flex-direction:column;line-height:1.05}
+.drawer-logo .d-sub2{font-size:8.5px;font-weight:700;letter-spacing:.2em;color:rgba(255,255,255,.55);margin-top:3px}
+.f-logo .f-sub{display:block;font-family:var(--font-display);font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:4px}
+.lets-talk .wrap{padding-left:0}
+@media(min-width:901px){.lets-talk{padding-left:5rem}}
+
+/* ===== NAV BRAND + BROKERAGE ===== */
+.nav-logo{font-size:23px !important;letter-spacing:.07em !important;line-height:1}
+.nav-ss{font-size:8.5px !important;letter-spacing:.22em !important;margin-top:3px}
+.nav-contact{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+.nav-brokered{font-family:var(--font-body,Georgia,serif);font-size:8.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#7b8a8e;margin-top:4px;white-space:nowrap}
+@media(max-width:600px){.nav-logo{font-size:19px !important}.nav-brokered{font-size:7.5px;letter-spacing:.12em}}
+
+/* ===== MEET OUR TEAM — highlighted ===== */
+.team-cta{text-align:center;margin:1.2rem auto 3rem;max-width:760px}
+.team-cta-kick{font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold,#b8935a);margin-bottom:1.1rem}
+.team-cta-btn{position:relative;display:inline-flex;align-items:center;gap:14px;background:var(--deep,#024757);color:#fff;font-family:var(--font-display);font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:20px 44px;border:2px solid var(--yellow,#fecc57);box-shadow:0 14px 34px rgba(2,71,87,.22);transition:transform .2s ease,background .2s ease,color .2s ease}
+.team-cta-btn span{color:var(--yellow,#fecc57);font-size:18px;transition:transform .2s ease}
+.team-cta-btn:hover{background:var(--yellow,#fecc57);color:var(--deep,#024757);transform:translateY(-2px)}
+.team-cta-btn:hover span{color:var(--deep,#024757);transform:translateX(4px)}
+.team-cta-btn::after{content:'';position:absolute;inset:-8px;border:1px solid rgba(254,204,87,.55);animation:ctaRing 2.6s ease-out infinite;pointer-events:none}
+@keyframes ctaRing{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(1.12)}}
+@media(prefers-reduced-motion:reduce){.team-cta-btn::after{animation:none;opacity:.5}}
+@media(max-width:600px){.team-cta-btn{padding:17px 28px;font-size:13px}}
+
+.f-brand-logo{display:block;width:118px;height:auto;margin-top:1.6rem;border-radius:2px}
+</style>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sun Sanctuaries by Tomi Homes">
+<meta property="og:title" content="Tomi Homes · Sun Sanctuaries · Arizona Real Estate">
+<meta property="og:description" content="Tomi Homes · Sun Sanctuaries by Tomi Homes — Arizona's women-led real estate team. 30 years of experience. Discover. Dream. Live AZ.">
+<meta property="og:url" content="https://imaginative-kangaroo-c59e1b.netlify.app/">
+<meta property="og:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://imaginative-kangaroo-c59e1b.netlify.app/share-card.jpg">
+<style id="mobile-fixes">
+.drawer .d-link,.drawer summary.d-link{display:flex;justify-content:space-between;align-items:center;font-family:var(--font-display);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:.95rem 0;border-bottom:1px solid rgba(255,255,255,.12);text-decoration:none;background:none;line-height:1.2}
+.drawer details.d-group{border-bottom:1px solid rgba(255,255,255,.12)}
+.drawer details.d-group>summary.d-link{border-bottom:none;cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.drawer details.d-group>summary::-webkit-details-marker{display:none}
+.drawer .d-caret{width:9px;height:9px;border-right:2px solid var(--yellow,#fecc57);border-bottom:2px solid var(--yellow,#fecc57);transform:rotate(45deg);margin:0 6px 4px 0;transition:transform .2s ease;flex:0 0 auto}
+.drawer details[open] .d-caret{transform:rotate(-135deg);margin-bottom:-4px}
+.drawer .d-group a.d-sub{display:block;font-family:var(--font-display);font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:none;color:rgba(255,255,255,.78);padding:.7rem 0 .7rem 1rem;border-top:1px solid rgba(255,255,255,.07);text-decoration:none}
+.drawer .d-group a.d-sub:last-child{margin-bottom:.4rem}
+.drawer .d-link:hover,.drawer .d-group a.d-sub:hover{color:var(--yellow,#fecc57)}
+.drawer .d-link:focus-visible,.drawer .d-sub:focus-visible{outline:2px solid var(--yellow,#fecc57);outline-offset:2px}
+@media(max-width:600px){.float-cta{right:auto;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px))}}
+.hero-video::-webkit-media-controls,.hero-video::-webkit-media-controls-start-playback-button,.hero-video::-webkit-media-controls-overlay-play-button{display:none!important;-webkit-appearance:none;opacity:0}
+.hero-video{pointer-events:none}
+.lt-photo{background-position:right center!important}
+@media(max-width:900px){.lets-talk{display:block!important;padding-top:0!important}.lt-photo{position:relative!important;display:block;width:auto!important;height:340px;margin:0 -1.5rem 2rem;background-image:url('team-trio-door.jpg')!important;background-size:cover!important;background-repeat:no-repeat!important;background-position:center 18%!important}.lt-photo::before{background:linear-gradient(0deg,rgba(27,31,34,1) 0%,rgba(27,31,34,0) 45%)!important}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+ <div class="nav-brand">
+  <div class="nav-logo">SUN SANCTUARIES</div>
+  <div class="nav-ss">by Tomi Homes</div>
+ </div>
+ <div class="nav-links">
+
+ <a href="index.html" class="nav-link active">Home</a>
+ <a href="tour-homes.html" class="nav-link">Tour Homes</a>
+ <div class="nav-link has-dd">Buy + Sell
+ <div class="dd">
+ <a href="buy.html">Buying a Home</a>
+ <a href="sell.html">Selling a Home</a>
+ </div>
+ </div>
+ <a href="probate.html" class="nav-link">Probate</a>
+ <a href="donate.html" class="nav-link">Donate</a>
+ <a href="team.html" class="nav-link">Our Team</a>
+ <a href="explore.html" class="nav-link">Explore AZ</a>
+ <div class="nav-link has-dd reloc-dd">Relocation
+ <div class="dd dd-wide">
+ <a href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+ <a href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+ </div>
+ </div>
+ <a href="blog.html" class="nav-link">Blog</a>
+ <a href="drop-us-a-like.html" class="nav-link">Drop Us a Like</a>
+ </div>
+ <div class="nav-right">
+  <div class="nav-contact"><a href="tel:6024057941" class="nav-phone">602.405.7941</a><span class="nav-brokered">Brokered by W &amp; Partners</span></div>
+  <button class="sh-burger nav-burger" aria-label="Open menu" aria-controls="drawer"><span></span><span></span><span></span></button>
+ </div>
+</nav>
+
+<nav class="drawer" id="drawer" aria-label="Mobile menu">
+  <div class="drawer-head">
+    <span class="drawer-logo">SUN SANCTUARIES<span class="d-sub2">by Tomi Homes</span></span>
+    <button class="drawer-close" aria-label="Close menu">&times;</button>
+  </div>
+    <a class="d-link" href="index.html">Home</a>
+    <a class="d-link" href="tour-homes.html">Tour Homes</a>
+    <details class="d-group">
+      <summary class="d-link">Buy + Sell<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="buy.html">Buying a Home</a>
+      <a class="d-sub" href="sell.html">Selling a Home</a>
+    </details>
+    <a class="d-link" href="probate.html">Probate</a>
+    <a class="d-link" href="donate.html">Donate</a>
+    <a class="d-link" href="team.html">Our Team</a>
+    <a class="d-link" href="explore.html">Explore AZ</a>
+    <details class="d-group">
+      <summary class="d-link">Relocation<span class="d-caret" aria-hidden="true"></span></summary>
+      <a class="d-sub" href="relocation.html">I&rsquo;m planning to move to Arizona</a>
+      <a class="d-sub" href="agent-referral.html">I&rsquo;m seeking an agent to represent my clients</a>
+    </details>
+    <a class="d-link" href="blog.html">Blog</a>
+    <a class="d-link" href="drop-us-a-like.html">Drop Us a Like</a>
+  <div class="drawer-foot">
+    <a href="tel:6024057941">Call or Text 602.405.7941</a>
+    <a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a>
+  </div>
+</nav>
+
+
+
+<!-- HERO — VIDEO BACKGROUND -->
+<section class="hero">
+ <video class="hero-video" id="heroVideo" autoplay muted loop playsinline webkit-playsinline preload="auto" disablepictureinpicture poster="hero-poster.jpg">
+ <source src="hero-video.mp4" type="video/mp4">
+ </video>
+ <div class="hero-overlay"></div>
+ <div class="hero-content">
+ <div class="hero-ss-top a1">Sun Sanctuaries by Tomi Homes</div>
+ <h1 class="hero-h1 a2">
+ <span class="gold">Discover.</span><br>
+ <span class="teal">Dream.</span><br>
+ Live AZ.
+ </h1>
+ <p class="hero-tagline a3">Your guide to buying, selling, and loving Arizona.<br><strong style="font-weight:500;color:white">50+ years of combined experience. Zero pressure. All heart.</strong></p>
+ <div class="hero-ss a3">Brokered by W &amp; Partners</div>
+ <div class="hero-btns a4">
+ <a href="tour-homes.html" class="btn btn-orange">Search Homes →</a>
+ <a href="sell.html#valuation" class="btn btn-outline-white">What's My Home Worth?</a>
+ </div>
+ </div>
+ <div class="hero-scroll">
+ <div class="hero-scroll-line"></div>
+ Scroll
+ </div>
+</section>
+
+
+<!-- TOOLKIT TEASER -->
+<section style="background:linear-gradient(160deg,var(--deep) 0%,#053e4c 100%);padding:3rem 2rem;text-align:center">
+ <div class="ey ey-white" style="justify-content:center">A Gift, From Us to You</div>
+ <h2 class="sec-h" style="color:#fff;margin-bottom:.5rem">Your Free Real Estate Toolkit</h2>
+ <p style="color:rgba(255,255,255,.72);font-size:15px;max-width:520px;margin:0 auto 1.9rem;font-weight:300;line-height:1.7">Three guides, built from real experience, to help you move one step closer to your goals.</p>
+ <div style="display:flex;justify-content:center;gap:2.6rem;flex-wrap:wrap;max-width:760px;margin:0 auto">
+  <a href="#toolkits" style="text-decoration:none;width:150px;group">
+   <div style="width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto 1rem;position:relative;border:1px solid rgba(217,189,140,.5);box-shadow:0 18px 40px rgba(0,0,0,.35);transition:transform .3s">
+    <img src="toolkit-buyer.jpg" alt="Downtown Phoenix street and light rail line" style="width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(1.05)">
+   </div>
+   <div style="font-family:var(--font-display);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light);margin-bottom:6px">Buyer Guide</div>
+   <div style="font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:18px;color:#fff">Buy Like a Pro</div>
+  </a>
+  <a href="#toolkits" style="text-decoration:none;width:150px">
+   <div style="width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto 1rem;position:relative;border:1px solid rgba(217,189,140,.5);box-shadow:0 18px 40px rgba(0,0,0,.35)">
+    <img src="toolkit-seller.jpg" alt="Sunlit living room with armchair and snake plant" style="width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(1.05)">
+   </div>
+   <div style="font-family:var(--font-display);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light);margin-bottom:6px">Seller Guide</div>
+   <div style="font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:18px;color:#fff">Selling Made Simple</div>
+  </a>
+  <a href="#toolkits" style="text-decoration:none;width:150px">
+   <div style="width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto 1rem;position:relative;border:1px solid rgba(217,189,140,.5);box-shadow:0 18px 40px rgba(0,0,0,.35)">
+    <img src="toolkit-relocation.jpg" alt="Desert lizard on Arizona rock" style="width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(1.05)">
+   </div>
+   <div style="font-family:var(--font-display);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light);margin-bottom:6px">Relocation Guide</div>
+   <div style="font-family:var(--font-serif);font-style:italic;font-weight:500;font-size:18px;color:#fff">Arizona Awaits</div>
+  </a>
+ </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust">
+  <div class="trust-item">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg>
+    50+ Years Combined Experience
+  </div>
+  <div class="trust-div"></div>
+  <div class="trust-item">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    Probate &amp; Estate Sale Expertise
+  </div>
+  <div class="trust-div"></div>
+  <div class="trust-item">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    Phoenix · Scottsdale · Valley Wide · Flagstaff
+  </div>
+  <div class="trust-div"></div>
+  <div class="trust-item">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></svg>
+    Buying &middot; Selling &middot; Relocating
+  </div>
+</div>
+
+<!-- TEAM -->
+<section class="team-section">
+ <div class="team-header">
+  <div class="ey ey-orange">Meet Your Team</div>
+  <h2 class="sec-h" style="color:var(--deep)">Where Humans &amp;<br>Homes Connect</h2>
+  <p class="sec-sub" style="color:#555">A group of wonderful women who love dogs, cats, fish, real estate — and making your dream happen. Hover over our photos for a little surprise.</p>
+ </div>
+ <div class="team-grid">
+  <!-- ALICE — left -->
+  <div class="tc">
+   <div class="tc-photo ph-alice">
+    <img class="tc-real" src="alice-headshot.jpg" alt="Alice Narducci">
+    <img class="tc-baby" src="alice-kid.jpg" alt="Baby Alice">
+    <div class="tc-overlay">
+     <div class="tc-name">Alice Narducci</div>
+     <div class="tc-title">Real Estate Broker · Trusted Advisor</div>
+    </div>
+   </div>
+   <div class="tc-body">
+    <a href="alice.html" class="tc-btn tc-btn-sage">Meet Alice →</a>
+   </div>
+  </div>
+  <!-- TOMI — center -->
+  <div class="tc tc-center">
+   <div class="tc-photo">
+    <div class="broker-chip">Broker</div>
+    <img class="tc-real" src="tomi-headshot.jpg" alt="Tomi Emptage">
+    <img class="tc-baby" src="tomi-baby.jpg" alt="Baby Tomi">
+    <div class="tc-overlay">
+     <div class="tc-name">Tomyal Emptage</div>
+     <div class="tc-title">Real Estate Broker · Home & Lifestyle Strategist</div>
+    </div>
+   </div>
+   <div class="tc-body">
+    <a href="tomi.html" class="tc-btn tc-btn-deep">Meet Tomi →</a>
+   </div>
+  </div>
+  <!-- MEGAN — right -->
+  <div class="tc">
+   <div class="tc-photo ph-megan">
+    <img class="tc-real" src="megan-headshot.jpg" alt="Megan Olson">
+    <img class="tc-baby" src="megan-kid.jpg" alt="Baby Megan">
+    <div class="tc-overlay">
+     <div class="tc-name">Megan Olson</div>
+     <div class="tc-title">Director of Operations & Client Experience · Realtor</div>
+    </div>
+   </div>
+   <div class="tc-body">
+    <a href="megan.html" class="tc-btn tc-btn-teal">Meet Megan →</a>
+   </div>
+  </div>
+ </div>
+
+ <div class="team-cta">
+  <div class="team-cta-kick">Three agents &middot; One team &middot; Fifty years of Arizona</div>
+  <a href="team.html" class="team-cta-btn">Meet Our Team <span aria-hidden="true">&rarr;</span></a>
+ </div>
+ <div class="team-bar">
+  <div>
+   <h4>Ready to work with our team?</h4>
+   <p>No pressure. Just a conversation about what you need.</p>
+  </div>
+  <a href="contact.html" class="btn btn-yellow">Let's Talk →</a>
+ </div>
+</section>
+
+<!-- TOMI STATEMENTS -->
+<section class="tomi-says">
+ <div class="ts-left">
+  <h2>Your<br><span>Solution</span><br>is Tomi Homes.</h2>
+  <p>With 50 years of combined Arizona experience, we've seen every kind of market and every kind of dream. Here's what working with our team actually means — no fluff, no script.</p>
+ </div>
+ <div class="statements">
+  <div class="stmt"><div class="stmt-lbl">WE ARE</div><div class="stmt-txt">Your Guide to Arizona Living</div></div>
+  <div class="stmt"><div class="stmt-lbl">WE CREATE</div><div class="stmt-txt">Plans to save you TIME. MONEY. STRESS.</div></div>
+  <div class="stmt"><div class="stmt-lbl">WE HAVE</div><div class="stmt-txt">Sold thousands of homes for and to great people... YOU ARE NEXT.</div></div>
+  <div class="stmt"><div class="stmt-lbl">WE WILL</div><div class="stmt-txt">Get you the best possible DEAL</div></div>
+  <div class="stmt"><div class="stmt-lbl">WE SHARE</div><div class="stmt-txt">Our expertise to benefit you in real estate transactions</div></div>
+  <div class="stmt"><div class="stmt-lbl">WE CARE</div><div class="stmt-txt">About YOU. YOUR DREAM. YOUR BEST INTEREST.</div></div>
+ </div>
+</section>
+
+<!-- TOOLKITS -->
+<section class="toolkits" id="toolkits">
+ <div class="tk-header">
+  <div class="ey ey-orange">Free Resources</div>
+  <h2 class="sec-h" style="color:var(--deep)">Take Control of Your<br>Real Estate Dreams</h2>
+  <p class="sec-sub" style="color:#666">Download any guide free — just tell us where to send it. No spam. Ever.</p>
+ </div>
+ <div class="tk-grid">
+  <div class="tk-card tk-buyer">
+   <img class="tk-bg-photo" src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Arizona living room">
+   <div class="tk-overlay-full">
+    <span class="tk-tag">Buyers</span>
+    <div class="tk-title">Buy Like a Pro</div>
+    <p class="tk-desc">Everything you need to find and close on your Arizona home with total confidence.</p>
+    <ul class="tk-list">
+     <li>How to avoid common buyer mistakes</li>
+     <li>Insider tips for the AZ market</li>
+     <li>Steps to secure financing fast</li>
+     <li>How to make your best offer win</li>
+    </ul>
+    <a href="buy.html#guide" class="tk-btn">Download Free →</a>
+   </div>
+  </div>
+  <div class="tk-card tk-seller">
+   <img class="tk-bg-photo" src="https://images.pexels.com/photos/9290787/pexels-photo-9290787.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Arizona home for sale">
+   <div class="tk-overlay-full">
+    <span class="tk-tag">Sellers</span>
+    <div class="tk-title">Selling Made Simple</div>
+    <p class="tk-desc">Sell smarter, not harder. Pricing, prep, marketing, and closing — get top dollar.</p>
+    <ul class="tk-list">
+     <li>How to prep your home for listing</li>
+     <li>Marketing strategies that get results</li>
+     <li>Pricing right from day one</li>
+     <li>Negotiating like a pro</li>
+    </ul>
+    <a href="sell.html#guide" class="tk-btn">Download Free →</a>
+   </div>
+  </div>
+  <div class="tk-card tk-relo">
+   <img class="tk-bg-photo" src="https://images.pexels.com/photos/32371654/pexels-photo-32371654.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Arizona desert sunset">
+   <div class="tk-overlay-full">
+    <span class="tk-tag">Relocating</span>
+    <div class="tk-title">Arizona Awaits</div>
+    <p class="tk-desc">Moving to AZ? Everything you need to land in the right neighborhood.</p>
+    <ul class="tk-list">
+     <li>Valley neighborhood breakdowns</li>
+     <li>Cost of living comparisons</li>
+     <li>Best areas for families &amp; retirees</li>
+     <li>Tomi's local insider picks</li>
+    </ul>
+    <a href="relocation.html#guide" class="tk-btn">Download Free →</a>
+   </div>
+  </div>
+ </div>
+ <p class="tk-note">Name + email required · No spam · Unsubscribe anytime</p>
+</section>
+
+<!-- VALUATION -->
+<div class="val">
+ <div>
+  <h3>What's Your Home Worth<br>in Today's Market?</h3>
+  <p>Free, no-obligation home valuation — fast, honest, and local.</p>
+ </div>
+ <a href="sell.html#valuation" class="btn-white-bg">Get My Free Home Value →</a>
+</div>
+
+<!-- BUY / SELL -->
+<div class="buysell">
+ <div class="bs bs-buy">
+  <img class="bs-buy-bg-img" src="https://images.pexels.com/photos/36486483/pexels-photo-36486483.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Arizona pool">
+  <div class="bs-label">For Buyers</div>
+  <h3 class="bs-h">Find Your<br>Arizona Home</h3>
+  <p class="bs-p">First-timer, relocating, or investing — we know the Valley inside and out. Zero pressure. Total transparency.</p>
+  <div><a href="buy.html" class="btn btn-teal">Start Your Search →</a></div>
+  <div class="bs-bg">BUY</div>
+ </div>
+ <div class="bs bs-sell">
+  <img class="bs-buy-bg-img" src="https://images.pexels.com/photos/9290787/pexels-photo-9290787.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Arizona luxury pool">
+  <div class="bs-label">For Sellers</div>
+  <h3 class="bs-h">Sell Smart.<br>Sell Fast.<br>Get More.</h3>
+  <p class="bs-p">30 years of experience. Expert pricing. Marketing that gets eyes on your home and real offers on the table.</p>
+  <div><a href="sell.html" class="btn btn-yellow">List My Home →</a></div>
+  <div class="bs-bg">SELL</div>
+ </div>
+</div>
+
+<!-- LISTINGS -->
+<section class="listings">
+ <div class="l-header">
+  <div>
+   <div class="ey ey-teal" style="margin-bottom:.6rem">Active Listings</div>
+   <h2 class="sec-h" style="color:var(--deep);margin:0">Tour AZ Homes</h2>
+  </div>
+  <a href="tour-homes.html" class="btn btn-outline-dark">View All Listings →</a>
+ </div>
+ <!-- Featured Listings Grid — hardcoded cards with photos -->
+ <div class="feat-listings-grid">
+  <a href="2845-e-fremont-rd.html" class="feat-card">
+   <img src="01_-_Fremont.jpg" alt="2845 E Fremont Rd" loading="lazy">
+   <div class="feat-card-overlay"></div>
+   <div class="feat-badge"><div class="feat-status">Active</div></div>
+   <div class="feat-agent-tag">Tomyal Emptage</div>
+   <div class="feat-info">
+    <div class="feat-info-addr">2845 E Fremont Rd</div>
+    <div class="feat-info-city">Phoenix, AZ 85042</div>
+    <div class="feat-info-row">
+     <span class="feat-info-stat">3 bd</span><div class="feat-info-div"></div>
+     <span class="feat-info-stat">2.5 ba</span><div class="feat-info-div"></div>
+     <span class="feat-info-stat">$454,900</span>
+    </div>
+    <div class="feat-info-type">Legacy Golf Community · Golf Course Lot</div>
+    <div class="feat-info-cta">View Property →</div>
+   </div>
+  </a>
+  <a href="500-w-clarendon-ave.html" class="feat-card">
+   <img src="clarendon-1.jpg" alt="500 W Clarendon Ave C7" loading="lazy">
+   <div class="feat-card-overlay"></div>
+   <div class="feat-badge"><div class="feat-status" style="background:#8a6a36">Pending</div></div>
+   <div class="feat-agent-tag">Tomyal Emptage</div>
+   <div class="feat-info">
+    <div class="feat-info-addr">500 W Clarendon Ave</div>
+    <div class="feat-info-city">Phoenix, AZ 85013</div>
+    <div class="feat-info-row">
+     <span class="feat-info-stat">2 bd</span><div class="feat-info-div"></div>
+     <span class="feat-info-stat">2 ba</span><div class="feat-info-div"></div>
+     <span class="feat-info-stat">$164,900</span>
+    </div>
+    <div class="feat-info-type">Townhouse · Park North · Encanto</div>
+    <div class="feat-info-cta">View Property →</div>
+   </div>
+  </a>
+ </div>
+
+ <!-- MLS Search -->
+ <div class="mls-div">
+  <div class="mls-line"></div>
+  <div class="mls-txt">Search All Arizona Homes on the MLS</div>
+  <div class="mls-line"></div>
+ </div>
+ <div style="width:100%;border:1px solid rgba(2,71,87,.1);overflow:hidden;background:var(--off-white)">
+  <div style="background:var(--deep);padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between">
+   <div style="font-family:var(--font-display);font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow)">Live MLS Search · Powered by FlexMLS</div>
+   <a href="https://my.flexmls.com/tomi/search/idx_links/20170508180859340420000000/listings" target="_blank" style="font-size:10px;color:rgba(255,255,255,.5);letter-spacing:.08em;text-transform:uppercase;text-decoration:none">Open Full Screen →</a>
+  </div>
+  <iframe src="https://my.flexmls.com/tomi/search/idx_links/20170508180859340420000000/listings" width="100%" height="700" frameborder="0" scrolling="yes" style="display:block;border:none" title="Search Arizona MLS Listings" loading="lazy"></iframe>
+ </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi">
+ <div class="ey ey-yellow" style="justify-content:center;margin-bottom:.75rem">Client Love</div>
+ <h2 class="sec-h" style="color:var(--white);text-align:center">Let's Give Them<br>Something to Talk About</h2>
+ <div style="display:flex;justify-content:center;gap:1rem;margin-bottom:2rem;flex-wrap:wrap">
+  <a href="https://share.google/0S2BMWJBeRl2VOv20" target="_blank" style="display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:.6rem 1.2rem;color:rgba(255,255,255,.75);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;text-decoration:none">
+   <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+   Google Reviews
+  </a>
+  <a href="https://www.yelp.com/biz/tomi-homes-phoenix" target="_blank" style="display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:.6rem 1.2rem;color:rgba(255,255,255,.75);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;text-decoration:none">
+   <svg width="16" height="16" viewBox="0 0 24 24" fill="#d32323"><path d="M20.16 12.73l-4.38 1.24c-.9.26-1.72-.49-1.56-1.4l.87-4.5c.17-.88 1.22-1.21 1.88-.59l3.51 3.26c.66.61.47 1.72-.32 1.99zM9.13 18.5l1.38 4.27c.28.87 1.39 1.07 1.95.35l2.91-3.7c.56-.71.19-1.76-.69-1.94l-4.29-.57c-.88-.12-1.54.72-1.26 1.59zM4.5 13.12l-4.12 1.55c-.85.32-.95 1.45-.17 1.92l3.9 2.38c.78.47 1.77-.04 1.86-.95l.22-4.07c.09-.91-.81-1.5-1.69-1.83zM5.03 7.45L1.17 5.04C.39 4.56.49 3.43 1.34 3.11l4.12-1.55c.88-.33 1.78.26 1.69 1.17L6.93 6.8c-.09.91-1.08 1.12-1.9.65zM12.01 1.1L9.1 4.8c-.56.71-.19 1.76.69 1.94l4.29.57c.88.12 1.54-.72 1.26-1.59L13.96.45c-.28-.87-1.39-1.07-1.95-.35z"/></svg>
+   Yelp Reviews
+  </a>
+ </div>
+ <div class="testi-grid">
+  <div class="tc-card">
+   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.5rem">
+    <div class="tc-stars">★★★★★</div>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+   </div>
+   <p class="tc-text">"Tomi made the whole process feel easy. She knew exactly what to do, when to push, and when to wait. We got our house under asking in a competitive market."</p>
+   <div class="tc-author">Sarah &amp; Mike T.</div>
+   <div class="tc-loc">Phoenix, AZ · Google Review</div>
+  </div>
+  <div class="tc-card">
+   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.5rem">
+    <div class="tc-stars">★★★★★</div>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="#d32323"><path d="M20.16 12.73l-4.38 1.24c-.9.26-1.72-.49-1.56-1.4l.87-4.5c.17-.88 1.22-1.21 1.88-.59l3.51 3.26c.66.61.47 1.72-.32 1.99zM9.13 18.5l1.38 4.27c.28.87 1.39 1.07 1.95.35l2.91-3.7c.56-.71.19-1.76-.69-1.94l-4.29-.57c-.88-.12-1.54.72-1.26 1.59zM4.5 13.12l-4.12 1.55c-.85.32-.95 1.45-.17 1.92l3.9 2.38c.78.47 1.77-.04 1.86-.95l.22-4.07c.09-.91-.81-1.5-1.69-1.83zM5.03 7.45L1.17 5.04C.39 4.56.49 3.43 1.34 3.11l4.12-1.55c.88-.33 1.78.26 1.69 1.17L6.93 6.8c-.09.91-1.08 1.12-1.9.65zM12.01 1.1L9.1 4.8c-.56.71-.19 1.76.69 1.94l4.29.57c.88.12 1.54-.72 1.26-1.59L13.96.45c-.28-.87-1.39-1.07-1.95-.35z"/></svg>
+   </div>
+   <p class="tc-text">"We relocated from out of state and had no idea where to start. Tomi and Megan held our hand through every step. Couldn't have done it without them."</p>
+   <div class="tc-author">The Gonzalez Family</div>
+   <div class="tc-loc">Scottsdale, AZ · Yelp Review</div>
+  </div>
+  <div class="tc-card">
+   <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.5rem">
+    <div class="tc-stars">★★★★★</div>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+   </div>
+   <p class="tc-text">"Listed Thursday, multiple offers by Sunday. Tomi's pricing and marketing were spot on. Final sale came in above list price."</p>
+   <div class="tc-author">David R.</div>
+   <div class="tc-loc">Glendale, AZ · Google Review</div>
+  </div>
+ </div>
+ <div class="testi-footer" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+  <a href="https://share.google/0S2BMWJBeRl2VOv20" target="_blank" class="btn btn-outline-white">Leave Us a Google Review →</a>
+  <a href="https://www.yelp.com/biz/tomi-homes-phoenix" target="_blank" class="btn btn-outline-white">Read Yelp Reviews →</a>
+ </div>
+</section>
+
+<!-- NEIGHBORHOODS -->
+<section class="hoods">
+ <div class="hoods-header">
+  <div>
+   <div class="ey ey-deep" style="margin-bottom:.6rem">Living in the Sun</div>
+   <h2 class="sec-h" style="color:var(--deep);margin:0">Discover. Dream.<br>Live Arizona.</h2>
+  </div>
+  <a href="explore.html" class="btn btn-outline-dark">View All Areas →</a>
+ </div>
+ <div class="hoods-grid">
+  <a href="explore.html#phoenix" class="hood"><img class="hood-photo" src="explore-phoenix.jpg" alt="Palm-lined downtown Phoenix street with high-rise buildings, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Phoenix</div><div class="hood-vibe">City core · diverse · walkable</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#scottsdale" class="hood"><img class="hood-photo" src="explore-scottsdale.jpg" alt="The Scottsdale Rotary clock in Old Town Scottsdale, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Scottsdale</div><div class="hood-vibe">Luxury · arts · desert living</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#glendale" class="hood"><img class="hood-photo" src="explore-glendale.jpg" alt="Friends sharing a meal at home in Glendale, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Glendale</div><div class="hood-vibe">Sports · family · affordable</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#gilbert" class="hood"><img class="hood-photo" src="explore-gilbert.jpg" alt="Friends jumping into a backyard pool in Gilbert, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Gilbert</div><div class="hood-vibe">Master-planned · top schools</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#peoria" class="hood"><img class="hood-photo" src="explore-peoria.jpg" alt="Poolside outdoor living in Peoria, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Peoria</div><div class="hood-vibe">Outdoor living · great value</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#chandler" class="hood"><img class="hood-photo" src="explore-chandler.jpg" alt="Pastel patio chairs and bright Arizona light in Chandler" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Chandler</div><div class="hood-vibe">Tech hub · modern living</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#tempe" class="hood"><img class="hood-photo" src="explore-tempe.jpg" alt="Design-forward interior in Tempe, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Tempe</div><div class="hood-vibe">ASU · urban · vibrant</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#cave-creek" class="hood"><img class="hood-photo" src="explore-cave-creek.jpg" alt="Pink door and cactus on a blue wall in Cave Creek, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Cave Creek</div><div class="hood-vibe">Western · horses · character</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#paradise-valley" class="hood"><img class="hood-photo" src="explore-paradise-valley.jpg" alt="Resort-style pool and palms in Paradise Valley, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Paradise Valley</div><div class="hood-vibe">Estates · privacy · prestige</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#flagstaff" class="hood"><img class="hood-photo" src="explore-flagstaff.jpg" alt="Snow-capped San Francisco Peaks above the ponderosa pines near Flagstaff, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Flagstaff</div><div class="hood-vibe">Mountains · seasons · escapes</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#surprise" class="hood"><img class="hood-photo" src="explore-surprise.jpg" alt="Swimming in a turquoise Arizona pool in Surprise" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Surprise</div><div class="hood-vibe">Spring training · growing fast</div><div class="hood-arr">→</div></div></a>
+  <a href="explore.html#queen-creek" class="hood"><img class="hood-photo" src="explore-queen-creek.jpg" alt="Spanish-style courtyard patio in Queen Creek, Arizona" loading="lazy"><div class="hood-gradient"></div><div class="hood-text"><div class="hood-name">Queen Creek</div><div class="hood-vibe">New builds · space · community</div><div class="hood-arr">→</div></div></a>
+ </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog">
+ <div class="blog-header">
+  <div>
+   <div class="ey ey-orange" style="margin-bottom:.6rem">Living in the Sun · A Sun Sanctuaries Series</div>
+   <h2 class="sec-h" style="color:var(--deep);margin:0">Discover Arizona</h2>
+  </div>
+  <a href="blog.html" class="btn btn-outline-dark">Visit the Blog →</a>
+ </div>
+ <div class="blog-grid">
+  <a href="is-2026-a-good-time-to-buy-a-home-in-phoenix.html" class="b-card b-feat">
+   <div class="b-img b-lg b-navy" style="background:linear-gradient(rgba(2,71,87,.22),rgba(2,71,87,.62)),url('blog-card-phoenix.jpg') center/cover"><span class="b-tag t-mkt">Phoenix Market</span></div>
+   <div class="b-body">
+    <h3 class="b-title">Is 2026 a Good Time to Buy a Home in Phoenix?</h3>
+    <p class="b-excerpt">Rates have shifted, inventory is moving, and buyers who waited are starting to act. Here's what the data actually says — and what Tomi thinks you should do.</p>
+    <div class="b-meta"><div class="b-av">T</div><span>Tomi Emptage</span><div class="b-dot"></div><span>May 2026</span><div class="b-dot"></div><span>5 min read</span></div>
+   </div>
+  </a>
+  <a href="will-arizona-home-prices-drop-in-2026.html" class="b-card">
+   <div class="b-img b-sm b-sage" style="background:linear-gradient(rgba(2,71,87,.22),rgba(2,71,87,.62)),url('https://images.pexels.com/photos/7578848/pexels-photo-7578848.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover"><span class="b-tag t-sell">Sellers</span></div>
+   <div class="b-body">
+    <h3 class="b-title">Will AZ Home Prices Drop in 2026?</h3>
+    <p class="b-excerpt">Short answer: probably not dramatically. Here's the nuanced version.</p>
+    <div class="b-meta"><div class="b-av">T</div><span>Tomi</span><div class="b-dot"></div><span>4 min</span></div>
+   </div>
+  </a>
+  <a href="waterfall-hikes-in-arizona.html" class="b-card">
+   <div class="b-img b-sm b-orange" style="background:linear-gradient(rgba(2,71,87,.22),rgba(2,71,87,.62)),url('https://images.pexels.com/photos/4254563/pexels-photo-4254563.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover"><span class="b-tag t-life">Lifestyle</span></div>
+   <div class="b-body">
+    <h3 class="b-title">Waterfall Hikes in Arizona</h3>
+    <p class="b-excerpt">Yes, Arizona has waterfalls. Our hiking-obsessed picks for this season.</p>
+    <div class="b-meta"><div class="b-av" style="background:var(--sage)">T</div><span>Tomi</span><div class="b-dot"></div><span>3 min</span></div>
+   </div>
+  </a>
+ </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section class="subscribe">
+  <img class="subscribe-bg" src="subscribe-pool.jpg" alt="Aerial view of a swimmer floating in a turquoise Arizona pool" loading="lazy">
+  <div class="subscribe-overlay"></div>
+  <div class="subscribe-content">
+    <div class="subscribe-tag">Subscribe</div>
+    <h2 class="subscribe-h">Be The First to Know</h2>
+    <p class="subscribe-sub">Get useful updates on Arizona real estate &amp;<br>area information right to your inbox</p>
+    <form class="subscribe-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/newsletter-thanks.html">
+      <input type="hidden" name="form-name" value="newsletter">
+      <input type="hidden" name="page" value="index">
+      <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <input class="subscribe-input" type="email" name="email" placeholder="Your email address" required autocomplete="email" aria-label="Email address">
+      <button type="submit" class="subscribe-btn">Subscribe →</button>
+    </form>
+    <p class="subscribe-note">No spam · Unsubscribe anytime</p>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<section class="lets-talk" id="talk">
+  <div class="lt-photo" style="background-image:url('lets-talk-team.jpg')"></div>
+  <div class="wrap">
+    <div class="lt-inner">
+      <div class="lt-title">Let's Talk</div>
+      <div class="lt-rule"></div>
+      <div class="lt-sub">First Step to Achieving Your Dream</div>
+      <form class="lt-form" name="lets-talk" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you-contact.html">
+        <input type="hidden" name="form-name" value="lets-talk">
+        <input type="hidden" name="page" value="index">
+        <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="lt-row">
+          <div class="lt-field"><label for="lt-first">First name *</label><input type="text" id="lt-first" name="first-name" required autocomplete="given-name"></div>
+          <div class="lt-field"><label for="lt-last">Last name</label><input type="text" id="lt-last" name="last-name" autocomplete="family-name"></div>
+        </div>
+        <div class="lt-row">
+          <div class="lt-field"><label for="lt-email">Email *</label><input type="email" id="lt-email" name="email" required></div>
+          <div class="lt-field"><label for="lt-phone">Phone *</label><input type="tel" id="lt-phone" name="phone" required></div>
+        </div>
+        <div class="lt-field"><label for="lt-help">How Can my Team Help?</label><input type="text" id="lt-help" name="help"></div>
+        <button type="submit">Connect with our Team</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div>
+      <div class="f-logo">SUN SANCTUARIES<span class="f-sub">by Tomi Homes</span></div>
+      <div class="f-tag">Your Guide to Loving and Living in Arizona.<br>Discover. Dream. Live AZ.</div>
+      <div class="f-contact">
+        <a href="tel:6024057941">602.405.7941</a>
+        <a href="mailto:tomi@tomihomes.com">tomi@tomihomes.com</a>
+        <a href="https://imaginative-kangaroo-c59e1b.netlify.app">tomihomes.com</a>
+      </div>
+      <div class="f-broker">Brokered by W &amp; Partners</div>
+      <img src="sun-sanctuaries-logo.png" alt="Sun Sanctuaries by Tomi Homes · W &amp; Partners Luxury Real Estate Firm" class="f-brand-logo">
+    </div>
+    <div class="f-col">
+      <h5>Navigate</h5>
+      <a href="tour-homes.html">Search Homes</a>
+      <a href="buy.html">Buy a Home</a>
+      <a href="sell.html">Sell a Home</a>
+      <a href="team.html">Our Team</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    <div class="f-col">
+      <h5>Services</h5>
+      <a href="relocation.html">Relocation</a>
+      <a href="probate.html">Probate</a>
+      <a href="donate.html">Give Back</a>
+      <a href="sell.html#valuation">Home Valuation</a>
+      <a href="buy.html#guide">Free Buyer's Guide</a>
+      <a href="sell.html#guide">Free Seller's Guide</a>
+    </div>
+    <div class="f-col">
+      <h5>Explore AZ</h5>
+      <a href="explore.html#phoenix">Phoenix</a>
+      <a href="explore.html#scottsdale">Scottsdale</a>
+      <a href="explore.html#glendale">Glendale</a>
+      <a href="explore.html#gilbert">Gilbert</a>
+      <a href="explore.html#flagstaff">Flagstaff</a>
+      <a href="explore.html">+ 15 more →</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="f-copy">© 2026 Tomi Homes · Sun Sanctuaries · <a href="privacy.html" style="color:inherit">Privacy Policy</a> · All rights reserved</div>
+    <div class="f-socials">
+      <a href="https://share.google/0S2BMWJBeRl2VOv20" target="_blank" class="soc">G</a>
+      <a href="https://www.instagram.com/tomihomesaz/" target="_blank" class="soc">IG</a>
+      <a href="https://www.facebook.com/TomiHomesAZ" target="_blank" class="soc">FB</a>
+      <a href="https://www.youtube.com/@sunsanctuaries" target="_blank" class="soc">YT</a>
+      <a href="https://www.yelp.com/biz/tomi-homes-phoenix" target="_blank" class="soc">Y!</a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOAT CTA -->
+<div class="float-cta">
+  <a href="tel:6024057941">
+    <div class="float-pulse"></div>
+    Call or Text Tomi
+  </a>
+</div>
+
+<script>
+(function(){
+var b=document.getElementById('stickybar'),h=document.querySelector('.sitehead');
+if(b&&h){var u=function(){b.classList.toggle('show',window.scrollY>h.offsetHeight-20)};
+window.addEventListener('scroll',u,{passive:true});u();}
+var d=document.getElementById('drawer');
+function open_(){d.classList.add('open');document.body.style.overflow='hidden';}
+function close_(){d.classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('click',function(e){
+ if(e.target.closest&&e.target.closest('.sh-burger')){e.preventDefault();open_();}
+ if(e.target.closest&&e.target.closest('.drawer-close')){e.preventDefault();close_();}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d&&d.classList.contains('open'))close_();});
+})();
+</script>
+<script>
+(function(){var v=document.getElementById('heroVideo');if(!v)return;v.muted=true;v.setAttribute('muted','');
+function go(){var p=v.play();if(p&&p.catch)p.catch(function(){});}
+go();['touchstart','click','scroll'].forEach(function(ev){window.addEventListener(ev,function h(){if(v.paused)go();window.removeEventListener(ev,h);},{passive:true});});
+document.addEventListener('visibilitychange',function(){if(!document.hidden&&v.paused)go();});})();
+</script>
+</body>
+</html>
+
